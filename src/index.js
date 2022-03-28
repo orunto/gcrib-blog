@@ -11,19 +11,28 @@ function PostPhoto (props) {
     );
 }
 
-function TalkButton (props) {
+function ProgressBar (props) {
     return (
-        <div className="TalkButton"></div>
+        <div id="ProgressBar">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div id="four"></div>
+        </div>
     )
 }
 
-
-function DataForm (props) {
+function Posts (props) {
     return (
-        <form id="DataForm">
-            <input type="tel" id="tel" placeholder="000-000-000-0000"></input>
-            <input id="submit" value="Phone Number" type="submit"></input>
-        </form>
+        <div className="Posts">
+            <PostPhoto></PostPhoto>
+            <h3>5 outfit mistakes you make</h3>
+            <span>Daniel Akindele</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, turpis faucibus commodo proin quisque faucibus pharetra tempor aliquet.</p>
+            <Button>
+                <span>Read More</span>
+            </Button>
+        </div>
     )
 }
 
@@ -85,7 +94,15 @@ function OtherReads () {
     return (
         <section className="OtherReads">
             <h2>Other Reads for You</h2>
+
+            <div className="ReadsPosts">
+                <Posts></Posts>
+                <Posts></Posts>
+                <Posts></Posts>
+                <Posts></Posts>
+            </div>
             
+            <ProgressBar></ProgressBar>
         </section>
     );
 }

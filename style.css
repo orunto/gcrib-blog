@@ -201,219 +201,88 @@ p {
     height: 630px;
 }
 
-#info {
+.ReadsPosts {
     position: absolute;
-    top: 209px;
-    left: 50px;
-}
-
-#stores {
-    position: absolute;
-    top: 314px;
-    left: 342px;
-}
-
-#middle {
-    position: absolute;
-    top: 209px;
-    left: calc(50% - 120px);
-}
-
-#connect {
-    position: absolute;
-    top: 314px;
-    left: 918px;
-}
-
-#auto {
-    position: absolute;
-    top: 209px;
-    left: 1202px;
-}
-
-.OtherReads h2 {
-    left: 50px;
-    top: 60px;
-}
-
-.OtherReads .Button {
-    top: 644px;
-    padding-top: 18px;
-    width: 200px;
-    height: 60px;
-    left: calc(50% - 100px);
-}
-
-
-
-
-
-
-/* Dressed */
-.Dressed {
-    position: absolute;
-    top: 1573px;
-    width: 100%;
-    height: 400px;
-    background: #E5E5E5;
-}
-
-.Dressed h2 {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-}
-
-.Dressed p {
-    position: absolute;
-    left: 50px;
-    top: 120px;
-    width: calc(100% - 100px);
-}
-
-.Slider {
-    position: absolute;
-    top: 204px;
-    left: 50px;
-    width: calc(100% - 100px);
-    height: 698px;
-}
-
-#back {
-    position: absolute;
-    left: 50px;
-    width: calc(100% - 50px);
-    height: calc(100% - 50px);
-    background: #E5E5E5;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 20px;
-}
-
-#front {
-    position: absolute;
-    top: 50px;
-    width: calc(100% - 50px);
-    height: calc(100% - 50px);
-    background: #C4C4C4;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 20px;
-}
-
-.Dressed .Button {
-    top: 962px;
-    padding-top: 18px;
-    width: 200px;
-    height: 60px;
-    left: calc(50% - 100px);
-}
-
-
-
-
-
-
-
-
-/* Socials */
-#Socials {
-    position: absolute;
-    top: 2795px;
-    width: 100%;
-    height: 300px;
-}
-
-#Socials h2 {
-    left: 50px;
-}
-
-.Spread {
-    position: absolute;
-    top: 100px;
+    top: 80px;
+    height: 505px;
     width: 100%;
     display: flex;
 }
 
-.Spread div {
+.Posts {
     margin: auto;
+    width: 300px;
+    height: 505px;
 }
 
-.TalkButton {
+.Posts .PostPhoto {
+    width: 300px;
+    height: 300px;
+}
+
+.Posts h3 {
+    left: 45px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 325px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Posts span {
+    width: 300px;
+    margin-top: 365px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Posts p {
+    width: 300px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+.Posts .Button {
+    position: absolute;
+    padding-top: 7px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    width: 120px;
+    height: 35px;
+}
+
+.Posts .Button span {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.OtherReads h2 {
+    left: 50px;
+    top: 0;
+}
+
+#ProgressBar {
+    position: absolute;
+    top: 644px;
+    left: calc(50% - 90px);
+    width: 180px;
+    height: 20px;
+    display: flex;
+}
+
+#ProgressBar div {
+    border-radius: 50%;
+    border: 1px solid #000000;
+    width: 20px;
+    height: 20px;
     margin: auto;
-    width: 200px;
-    height: 200px;
     background: #C4C4C4;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 20px;
-}
-
-
-
-
-
-/* Our App */
-.OurApp {
-    position: absolute;
-    top: 3300px;
-    width: 100%;
-    height: 400px;
-    background: url('./images/Group\ 22.png');
-}
-
-.OurApp h1 {
-    position: absolute;
-    top: 243px;
-    width: 100%;
-    text-align: center;
-}
-
-.OurApp p {
-    position: absolute;
-    top: 324px;
-    width: 100%;
-    text-align: center;
-
-}
-
-#DataForm {
-    position: absolute;
-    top: 398px;
-    left: calc(50% - 225px);
-    width: 450px;
-    height: 60px;
-}
-
-#DataForm #tel {
-    font-family: 'Montserrat';
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-    background: none;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 5px 0px 0px 5px;
-    font-size: 20px;
-    padding-left: 27px;
-}
-
-#DataForm #submit {
-    font-family: 'Montserrat';
-    font-size: 20px;
-    height: 100%;
-    width: 200px;
-    margin: 0;
-    padding: 0;
-    background: #E5E5E5;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 0px 5px 5px 0px;
 }
 
 
