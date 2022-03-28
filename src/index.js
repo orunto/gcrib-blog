@@ -99,7 +99,7 @@ function OtherReads () {
                 <Posts></Posts>
                 <Posts></Posts>
                 <Posts></Posts>
-                <Posts></Posts>
+                <div id="deleted"><Posts></Posts></div>
             </div>
             
             <ProgressBar></ProgressBar>
