@@ -261,58 +261,6 @@ p {
     margin: 0;
 }
 
-.Posts1 {
-    margin: auto;
-    width: 300px;
-    height: 505px;
-}
-
-.Posts1 .PostPhoto {
-    width: 300px;
-    height: 300px;
-}
-
-.Posts1 h3 {
-    left: 45px;
-    width: 300px;
-    font-size: 20px;
-    font-weight: normal;
-    margin-top: 325px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.Posts1 span {
-    width: 300px;
-    margin-top: 365px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Posts1 p {
-    width: 300px;
-    height: 70px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px;
-}
-
-.Posts1 .Button {
-    position: absolute;
-    padding-top: 7px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px;
-    width: 120px;
-    height: 35px;
-}
-
-.Posts1 .Button span {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-}
 
 .OtherReads h2 {
     left: 50px;
@@ -629,7 +577,7 @@ footer span {
         margin: 0;
     }
     
-    .Posts1 {
+    #Posts1 {
         display: none;
     }
     .OtherReads h2 {
@@ -710,7 +658,7 @@ footer span {
     }
     
     p {
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .PostPhoto {
@@ -728,7 +676,7 @@ footer span {
     }
     
     h1 {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: normal;
         margin: 0;
     }
@@ -737,7 +685,7 @@ footer span {
         font-weight: normal;
         margin: 0;
         position: absolute;
-        font-size: 25px;
+        font-size: 20px;
     }
     
     
@@ -831,15 +779,24 @@ footer span {
     /* For Men */
     .ReadOfTheDay {
         position: absolute;
-        top: 50px;
+        top: 100px;
         left: 0;
-        width: 100%;
-        height: 500px;
+        width: 100vw;
+        height: 625px;
     }
     
     .ReadOfTheDay h1 {
         position: absolute;
-        top: 192px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .ReadOfTheDay h2 {
+        position: absolute;
+        top: 415px;
+        left: 0;
         width: 100%;
         text-align: center;
     }
@@ -848,19 +805,40 @@ footer span {
         margin: 0;
     }
     
-    .ReadOfTheDay p {
+    #author {
         position: absolute;
-        top: 256px;
+        top: 460px;
+        left: 0;
+        font-weight: 500;
+        font-size: 14px;
         width: 100%;
         text-align: center;
     }
+    .ReadOfTheDay p {
+        position: absolute;
+        top: 491px;
+        left: 25px;
+        text-align: center;
+        width: calc(100% - 50px);
+        height: 70px;
+        overflow: hidden;
+    }
+    
+    .ReadOfTheDay .PostPhoto {
+        position: absolute;
+        top: 70px;
+        left: 25px;
+        width: calc(100% - 50px);
+        height: calc(100vw - 50px);
+    }
     
     .ReadOfTheDay .Button {
-        padding-top: 18px;
-        top: 316px;
-        width: 200px;
-        height: 60px;
-        left: calc(50% - 100px);
+        position: absolute;
+        padding-top: 7px;
+        top: 574px;
+        width: calc(100% - 50px);
+        height: 35px;
+        left: 25px;
     }
     
     
@@ -869,7 +847,7 @@ footer span {
     /* OtherReads */
     .OtherReads {
         position: absolute;
-        top: 590px;
+        top: 807px;
         width: 100vw;
         height: 375px;
     }
@@ -915,206 +893,6 @@ footer span {
         width: 200px;
         height: 60px;
         left: calc(50% - 100px);
-    }
-    
-    
-    
-    
-    
-    
-    /* Dressed */
-    .Dressed {
-        position: absolute;
-        top: 2165px;
-        width: 100%;
-        height: 500px;
-        background: #E5E5E5;
-    }
-    
-    .Dressed h2 {
-        position: absolute;
-        left: 25px;
-        top: 40px;
-        width: calc(100% - 50px);
-    }
-    
-    .Dressed p {
-        display: none;
-        position: absolute;
-        left: 50px;
-        top: 120px;
-        width: calc(100% - 100px);
-    }
-    
-    .Slider {
-        position: absolute;
-        top: 154px;
-        left: 25px;
-        width: calc(100% - 50px);
-        height: 300px;
-    }
-    
-    #back {
-        position: absolute;
-        left: 25px;
-        width: calc(100% - 25px);
-        height: calc(100% - 25px);
-        background: #E5E5E5;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-sizing: border-box;
-        border-radius: 20px;
-    }
-    
-    #front {
-        position: absolute;
-        top: 25px;
-        width: calc(100% - 25px);
-        height: calc(100% - 25px);
-        background: #C4C4C4;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        box-sizing: border-box;
-        border-radius: 20px;
-    }
-    
-    .Dressed .Button {
-        top: 477px;
-        padding-top: 18px;
-        width: 200px;
-        height: 60px;
-        left: calc(50% - 100px);
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    /* Socials */
-    #Socials {
-        position: absolute;
-        top: 2795px;
-        width: 100%;
-        height: 300px;
-    }
-    
-    #Socials h2 {
-        left: 25px;
-    }
-    
-    .Spread {
-        display: block;
-        position: absolute;
-        top: 100px;
-        left: 25px;
-        width: calc(100% - 50px);
-        height: 490px;
-    }
-    
-    .TalkButton {
-        position: absolute;
-        width: 130px;
-        height: 130px;
-        background: #C4C4C4;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        border-radius: 20px;
-    }
-    
-    #insta {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    
-    #facebook {
-        position: absolute;
-        top: 0;
-        left: 195px;
-    }
-    
-    #twitter {
-        position: absolute;
-        top: 180px;
-        left: calc(50% - 65px);
-    }
-
-    #whatsapp {
-        position: absolute;
-        top: 400px;
-        left: 0;
-    }
-
-    #linkedin {
-        position: absolute;
-        top: 400px;
-        left: 195px;
-    }
-    
-    
-    /* Our App */
-    .OurApp {
-        position: absolute;
-        top: 3673px;
-        width: 100%;
-        height: 500px;
-        background: url('./images/Group\ 23.png');
-        background-size: fill;
-    }
-    
-    .OurApp h1 {
-        position: absolute;
-        top: 142px;
-        width: 100%;
-        text-align: center;
-    }
-    
-    .OurApp p {
-        position: absolute;
-        top: 260px;
-        width: 100%;
-        text-align: center;
-    
-    }
-    
-    #DataForm {
-        position: absolute;
-        top: 340px;
-        left: 25px;
-        width: calc(100% - 50px);
-        height: 60px;
-    }
-    
-    #DataForm #tel {
-        font-family: 'Montserrat';
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        width: 180px;
-        margin: 0;
-        padding: 0;
-        background: none;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        border-radius: 5px 0px 0px 5px;
-        font-size: 16px;
-        padding-left: 15px;
-    }
-    
-    #DataForm #submit {
-        font-family: 'Montserrat';
-        font-size: 16px;
-        height: 100%;
-        width: 145px;
-        margin: 0;
-        padding: 0;
-        background: #E5E5E5;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        border-radius: 0px 5px 5px 0px;
     }
     
     

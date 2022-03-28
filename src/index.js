@@ -38,7 +38,7 @@ function Posts (props) {
 
 function Posts1 (props) {
     return (
-        <div className="Posts1">
+        <div className="Posts" id="Posts1">
             <PostPhoto></PostPhoto>
             <h3>5 outfit mistakes you make</h3>
             <span>Daniel Akindele</span>
