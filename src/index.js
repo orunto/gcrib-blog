@@ -5,9 +5,9 @@ function Button (props) {
     );
 }
 
-function Cards (props) {
+function PostPhoto (props) {
     return(
-        <div className="Cards">{props.children}</div>
+        <div className="PostPhoto">{props.children}</div>
     );
 }
 
@@ -88,29 +88,29 @@ function Simple () {
         <section className="Simple">
             <h2>Fashion should not be difficult and we make it even simpler</h2>
             <div id="info">
-                <Cards>
+                <PostPhoto>
                     <p>Find the information you need, answers to any questions</p>
-                </Cards>
+                </PostPhoto>
             </div>
             <div id="stores">
-                <Cards>
+                <PostPhoto>
                 <p>Find the best stores to shop from</p>
-                </Cards>
+                </PostPhoto>
             </div>
             <div id="middle">
-                <Cards>
+                <PostPhoto>
                 <p>Use our AI to build up your styles</p>
-                </Cards>
+                </PostPhoto>
             </div>
             <div id="connect">
-                <Cards>
+                <PostPhoto>
                 <p>Connect to the best of fashion talent in Nigeria</p>
-                </Cards>
+                </PostPhoto>
             </div>
             <div id="auto">
-                <Cards>
+                <PostPhoto>
                 <p>Simple, automated wardrobe building plans.</p>
-                </Cards>
+                </PostPhoto>
             </div>
             <Button>
                 <span>Let's Go</span>

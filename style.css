@@ -23,7 +23,7 @@ p {
     font-size: 20px;
 }
 
-.Cards {
+.PostPhoto {
     position: absolute;
     width: 240px;
     height: 200px;
@@ -34,7 +34,7 @@ p {
     padding: 52px 20px 52px 20px;
 }
 
-.Cards p {
+.PostPhoto p {
     width: 200px;
 }
 
@@ -453,7 +453,7 @@ footer span {
         font-size: 16px;
     }
     
-    .Cards {
+    .PostPhoto {
         position: absolute;
         width: 200px;
         height: 180px;
@@ -464,7 +464,7 @@ footer span {
         padding: 52px 20px 52px 20px;
     }
     
-    .Cards p {
+    .PostPhoto p {
         width: 140px;
     }
     
@@ -870,7 +870,7 @@ footer span {
         font-size: 16px;
     }
     
-    .Cards {
+    .PostPhoto {
         position: absolute;
         width: 240px;
         height: 200px;
@@ -881,7 +881,7 @@ footer span {
         padding: 52px 20px 52px 20px;
     }
     
-    .Cards p {
+    .PostPhoto p {
         width: 140px;
     }
     
