@@ -36,6 +36,20 @@ function Posts (props) {
     )
 }
 
+function Posts1 (props) {
+    return (
+        <div className="Posts1">
+            <PostPhoto></PostPhoto>
+            <h3>5 outfit mistakes you make</h3>
+            <span>Daniel Akindele</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, turpis faucibus commodo proin quisque faucibus pharetra tempor aliquet.</p>
+            <Button>
+                <span>Read More</span>
+            </Button>
+        </div>
+    )
+}
+
 // Interactions
 
 function Drop () {
@@ -99,7 +113,7 @@ function OtherReads () {
                 <Posts></Posts>
                 <Posts></Posts>
                 <Posts></Posts>
-                <div id="deleted"><Posts></Posts></div>
+                <Posts1></Posts1>
             </div>
             
             <ProgressBar></ProgressBar>
