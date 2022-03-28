@@ -11,15 +11,6 @@ function PostPhoto (props) {
     );
 }
 
-function Slider (props) {
-    return (
-        <div className="Slider">
-            <div id="back"></div>
-            <div id="front"></div>
-        </div>
-    );
-}
-
 function TalkButton (props) {
     return (
         <div className="TalkButton"></div>
@@ -52,8 +43,8 @@ function Retract () {
 function Header (){
     return(
         <nav id="navbar">
-            <img id="desktop" src="../images/Logo T.png" alt="logo"/>
-            <img id="mobile" src="../images/Icon T.png" alt="logo" />
+            <a href="https://gentlemenscrib.com"><img id="desktop" src="../images/Logo T.png" alt="logo"/></a>
+            <a href="https://gentlemenscrib.com"><img id="mobile" src="../images/Icon T.png" alt="logo" /></a>
             <img className="menu" id="menu1" onClick={Drop} src="../images/Menu.svg" alt="logo"/>
             <img className="menu" id="menu2" onClick={Retract} src="../images/Menu.svg" alt="logo"/>
             <ul>
@@ -70,94 +61,32 @@ function Header (){
     );
 }
 
-function ForMen() {
+function ReadOfTheDay() {
     return(
-        <section className="ForMen">
-            <h1>Fashion for Men</h1>
-            <p>Everything you need to feel good</p>
+        <section className="ReadOfTheDay">
+            <h1>Read of The Day</h1>
+            <PostPhoto></PostPhoto>
+            <h2>5 outfit mistakes you make</h2>
+            <span id="author">Daniel Akindele</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet diam eu, vitae pretium morbi ut massa condimentum. 
+                Nibh quis in nulla volutpat dui facilisi at sagittis, fringilla. Interdum ornare integer sit a est vitae ipsum. 
+                Tempus dolor mi pharetra, amet parturient. At semper in tincidunt nullam odio iaculis. 
+                Velit fringilla sed blandit semper viverra molestie aliquet at. Integer suspendisse pulvinar velit nunc vel cras vivamus. 
+                Arcu enim cursus amet in consequat. Quis et lacus amet, dignissim velit urna, velit ultrices. </p>
 
             <Button>
-                <span>Get Started</span>
+                <span>Read More</span>
             </Button>
         </section>
     )
 }
 
-function Simple () {
+function OtherReads () {
     return (
-        <section className="Simple">
-            <h2>Fashion should not be difficult and we make it even simpler</h2>
-            <div id="info">
-                <PostPhoto>
-                    <p>Find the information you need, answers to any questions</p>
-                </PostPhoto>
-            </div>
-            <div id="stores">
-                <PostPhoto>
-                <p>Find the best stores to shop from</p>
-                </PostPhoto>
-            </div>
-            <div id="middle">
-                <PostPhoto>
-                <p>Use our AI to build up your styles</p>
-                </PostPhoto>
-            </div>
-            <div id="connect">
-                <PostPhoto>
-                <p>Connect to the best of fashion talent in Nigeria</p>
-                </PostPhoto>
-            </div>
-            <div id="auto">
-                <PostPhoto>
-                <p>Simple, automated wardrobe building plans.</p>
-                </PostPhoto>
-            </div>
-            <Button>
-                <span>Let's Go</span>
-            </Button>
+        <section className="OtherReads">
+            <h2>Other Reads for You</h2>
+            
         </section>
-    );
-}
-
-function Dressed() {
-    return(
-        <section className="Dressed">
-            <h2>Get dressed for your events</h2>
-            <p>We offer affordable and almost free online and in-person support for you to look good during the 
-                most important moments in your life.</p>
-
-            <Slider></Slider>
-
-            <Button>
-                <span>I need this</span>
-            </Button>
-        </section>
-        );
-}
-
-function Socials (){
-    return (
-        <section id="Socials">
-            <h2>We like to talk a lot on social media about fashion</h2>
-            <div className="Spread">
-                <div id="insta"><TalkButton></TalkButton></div>
-                <div id="facebook"><TalkButton></TalkButton></div>
-                <div id="twitter"><TalkButton></TalkButton></div>
-                <div id="whatsapp"><TalkButton></TalkButton></div>
-                <div id="linkedin"><TalkButton></TalkButton></div>
-            </div>
-        </section>
-    );
-}
-
-function OurApp () {
-    return (
-        <section className="OurApp">
-            <h1>Our App is Coming</h1>
-            <p>Would you like us to notify you when it is ready?</p>
-            <DataForm></DataForm>
-        </section>
-
     );
 }
 
@@ -175,11 +104,8 @@ function Home (){
     return(
         <body>
             <Header/>
-            <ForMen />
-            <Simple />
-            <Dressed />
-            <Socials />
-            <OurApp />
+            <ReadOfTheDay />
+            <OtherReads />
             <Footer />
         </body>
     );
