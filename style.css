@@ -845,56 +845,104 @@ footer span {
     
     
     /* OtherReads */
+    .PostInfo{
+        position: absolute;
+        top: 225px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: white;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 0px 0px 20px 20px;
+    }
+
     .OtherReads {
         position: absolute;
         top: 807px;
-        width: 100vw;
-        height: 375px;
+        width: 100%;
+        height: 630px;
+        overflow: hidden;
     }
     
-    #info {
+    .ReadsPosts {
         position: absolute;
-        top: 170px;
+        top: 65px;
+        left: 0;
+        height: 505px;
+        width: calc(100% + 50px);
+        display: flex;
+    }
+    
+    .Posts {
+        position: absolute;
+        top: 0;
         left: 25px;
+        width: calc(100vw - 50px);
+        height: calc(100vw - 50px);
     }
     
-    #stores {
+    .Posts .PostPhoto {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .Posts h3 {
         position: absolute;
-        top: 410px;
-        left: 114px;
+        left: 15px;
+        top: 15px;
+        width: 300px;
+        font-size: 20px;
+        font-weight: normal;
+        margin: 0;
     }
-    
-    #middle {
+    .Posts span {
         position: absolute;
-        top: 650px;
-        left: 25px;
+        top: 54px;
+        left: 15px;
+        margin: 0;
     }
     
-    #connect {
-        position: absolute;
-        top: 890px;
-        left: 114px;
+    .Posts p {
+        display: none;
     }
     
-    #auto {
-        position: absolute;
-        top: 1140px;
-        left: 25px;
+    .Posts .Button {
+        display: none;
     }
     
+    .Posts .Button span {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    
+    #Posts1 {
+        display: none;
+    }
     .OtherReads h2 {
         left: 25px;
-        top: 0px;
+        top: 0;
     }
     
-    .OtherReads .Button {
-        top: 1430px;
-        padding-top: 18px;
-        width: 200px;
-        height: 60px;
-        left: calc(50% - 100px);
+    #ProgressBar {
+        position: absolute;
+        top: 425px;
+        left: calc(50% - 90px);
+        width: 180px;
+        height: 20px;
+        display: flex;
     }
     
+    #ProgressBar div {
+        border-radius: 50%;
+        border: 1px solid #000000;
+        width: 20px;
+        height: 20px;
+        margin: auto;
+        background: #C4C4C4;
+    }
     
     
     

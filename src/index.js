@@ -26,12 +26,14 @@ function Posts (props) {
     return (
         <div className="Posts">
             <PostPhoto></PostPhoto>
+            <div className="PostInfo">
             <h3>5 outfit mistakes you make</h3>
             <span>Daniel Akindele</span>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, turpis faucibus commodo proin quisque faucibus pharetra tempor aliquet.</p>
             <Button>
                 <span>Read More</span>
             </Button>
+            </div>
         </div>
     )
 }
@@ -40,12 +42,14 @@ function Posts1 (props) {
     return (
         <div className="Posts" id="Posts1">
             <PostPhoto></PostPhoto>
-            <h3>5 outfit mistakes you make</h3>
-            <span>Daniel Akindele</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, turpis faucibus commodo proin quisque faucibus pharetra tempor aliquet.</p>
-            <Button>
-                <span>Read More</span>
-            </Button>
+            <div className="PostInfo">
+                <h3>5 outfit mistakes you make</h3>
+                <span>Daniel Akindele</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, turpis faucibus commodo proin quisque faucibus pharetra tempor aliquet.</p>
+                <Button>
+                    <span>Read More</span>
+                </Button>
+            </div>
         </div>
     )
 }
@@ -53,7 +57,7 @@ function Posts1 (props) {
 // Interactions
 
 function Drop () {
-    navbar.style.height = "500px";
+    navbar.style.height = "400px";
     menu1.style.display = "none";
 }
 
