@@ -75,14 +75,14 @@ function Header (){
             <img className="menu" id="menu1" onClick={Drop} src="../images/Menu.svg" alt="logo"/>
             <img className="menu" id="menu2" onClick={Retract} src="../images/Menu.svg" alt="logo"/>
             <ul>
-                <li><a id="foryou" href="https://blog.gentlemenscrib.com">For You</a></li>
+                <li>For You</li>
                 <li>For Celebs</li>
                 <li>For Companies</li>
                 <li>Partners</li>
             </ul>
 
             <Button>
-                <span>Visit Crib</span>
+                <a id="foryou" href="https://blog.gentlemenscrib.com"><span>Visit Crib</span></a>
             </Button>
         </nav>
     );
