@@ -31,7 +31,7 @@ function Posts (props) {
             <span>Fikayomi Akindele</span>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, turpis faucibus commodo proin quisque faucibus pharetra tempor aliquet.</p>
             <Button>
-                <span>Read More</span>
+            <a href="sneakers"><span>Read More</span></a>
             </Button>
             </div>
         </div>
@@ -47,7 +47,7 @@ function Posts1 (props) {
                 <span>Fikayomi Akindele</span>
                 <p>Holiday season is here and that means sales season is here. A lot of stores, both online and physical will offer a lot of sales between now and January next year. But...</p>
                 <Button>
-                    <span>Read More</span>
+                <a href="friday"><span>Read More</span></a>
                 </Button>
             </div>
         </div>
@@ -63,7 +63,7 @@ function Posts2 (props) {
                 <span>Fikayomi Akindele</span>
                 <p>Casual is what most people will call their style and it's also how most people will dress most of the time. Casual style is very comfortable and can easily be done. </p>
                 <Button>
-                    <span>Read More</span>
+                <a href="casual"><span>Read More</span></a>
                 </Button>
             </div>
         </div>
@@ -95,7 +95,7 @@ function Posts4 (props) {
                 <span>Fikayomi Akindele</span>
                 <p>We all know the benefits of looking good. The complements, the opportunities, the respect. You want to start taking your dressing seriously but you don't know...</p>
                 <Button>
-                    <span>Read More</span>
+                <a href="versatile"><span>Read More</span></a>
                 </Button>
             </div>
         </div>

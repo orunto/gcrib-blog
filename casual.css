@@ -92,29 +92,29 @@ footer {
     
     .ReadBody span {
         position: absolute;
-        top: 174px;
+        top: 124px;
         font-size: 20px;
         color: #286086;
     }
     
     .ReadBody .PostPhoto {
         position: absolute;
-        top: 223px;
+        top: 173px;
         width: 100%;
         height: calc(100vw - 50px);
-        background: url('./images/casual.png');
+        background: url('./images/posts2.png');
         background-size: cover;
     }
     
     .ReadBody p {
         position: absolute;
-        top: 613px;
+        top: 563px;
         width: 100%;
     }
     
     footer {
         position: absolute;
-        top: 3350px !important;
+        top: 2500px !important;
     }
     
     #here {
