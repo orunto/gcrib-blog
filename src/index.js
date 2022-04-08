@@ -41,6 +41,7 @@ function Posts (props) {
 function Posts1 (props) {
     return (
         <div className="Posts" id="Posts1">
+            <a href="friday">
             <PostPhoto></PostPhoto>
             <div className="PostInfo">
                 <h3>Black Friday Sales - Scam or Not</h3>
@@ -50,6 +51,7 @@ function Posts1 (props) {
                 <a href="friday"><span>Read More</span></a>
                 </Button>
             </div>
+            </a>
         </div>
     )
 }
@@ -57,6 +59,7 @@ function Posts1 (props) {
 function Posts2 (props) {
     return (
         <div className="Posts" id="Posts2">
+            <a href="casual">
             <PostPhoto></PostPhoto>
             <div className="PostInfo">
                 <h3>5 Amazing Casual Outfits for Gentlemen</h3>
@@ -66,6 +69,7 @@ function Posts2 (props) {
                 <a href="casual"><span>Read More</span></a>
                 </Button>
             </div>
+            </a>
         </div>
     )
 }
@@ -73,6 +77,7 @@ function Posts2 (props) {
 function Posts3 (props) {
     return (
         <div className="Posts" id="Posts3">
+            <a href="sneakers">
             <PostPhoto></PostPhoto>
             <div className="PostInfo">
                 <h3>How to clean your sneakers</h3>
@@ -82,6 +87,7 @@ function Posts3 (props) {
                 <a href="sneakers"><span>Read More</span></a>
                 </Button>
             </div>
+            </a>
         </div>
     )
 }
@@ -89,6 +95,7 @@ function Posts3 (props) {
 function Posts4 (props) {
     return (
         <div className="Posts" id="Posts4">
+            <a href="versatile">
             <PostPhoto></PostPhoto>
             <div className="PostInfo">
                 <h3>Building a versatile and stylish men's wardrobe</h3>
@@ -98,6 +105,7 @@ function Posts4 (props) {
                 <a href="versatile"><span>Read More</span></a>
                 </Button>
             </div>
+            </a>
         </div>
     )
 }
@@ -138,7 +146,7 @@ function Header (){
 function ReadOfTheDay() {
     return(
         <section className="ReadOfTheDay">
-            <div id="here"></div>
+            <a href="outfit">
             <h1>Read of The Day</h1>
             <PostPhoto></PostPhoto>
             <h2>5 outfit mistakes you make</h2>
@@ -151,6 +159,7 @@ function ReadOfTheDay() {
             <Button>
                 <a href="outfit"><span>Read More</span></a>
             </Button>
+            </a>
         </section>
     )
 }
