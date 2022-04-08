@@ -79,7 +79,7 @@ function Posts3 (props) {
                 <span>Fikayomi Akindele</span>
                 <p>Sneakers are a staple in any man's wardrobe and have continued to grow in popularity and demand in the last couple of years. I am pretty sure that you have a...</p>
                 <Button>
-                    <span>Read More</span>
+                <a href="sneakers"><span>Read More</span></a>
                 </Button>
             </div>
         </div>
@@ -138,6 +138,7 @@ function Header (){
 function ReadOfTheDay() {
     return(
         <section className="ReadOfTheDay">
+            <div id="here"></div>
             <h1>Read of The Day</h1>
             <PostPhoto></PostPhoto>
             <h2>5 outfit mistakes you make</h2>
@@ -148,7 +149,7 @@ function ReadOfTheDay() {
                  issues and look better in your clothes. </p>
 
             <Button>
-                <span>Read More</span>
+                <a href="outfit"><span>Read More</span></a>
             </Button>
         </section>
     )
