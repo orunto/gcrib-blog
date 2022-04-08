@@ -96,7 +96,7 @@ function ReadBody() {
 
                 <br></br>
                 <br></br>
-                Shorts, A Tee shirt & White Sneakers
+                Shorts, A Tee shirt and White Sneakers
                 <br></br>
                 <br></br>
                 The first outfit you should try involves shorts. Slim well fitting shorts. To nail this look, fit is very very important. The shorts should sit about an inch or two above the knee (avoid cargo shorts). A solid coloured tee shirt or polo will work well for this look as well as simple sneakers like vans or Chuck Taylors. Accessories will elevate this outfit.
