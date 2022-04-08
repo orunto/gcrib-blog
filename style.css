@@ -918,15 +918,16 @@ footer span {
         left: 15px;
         top: 15px;
         width: 300px;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: normal;
         margin: 0;
     }
     .Posts span {
         position: absolute;
-        top: 54px;
+        top: 64px;
         left: 15px;
         margin: 0;
+        font-size: 12px;
     }
     
     .Posts p {
@@ -944,7 +945,19 @@ footer span {
     }
     
     #Posts1 {
-        display: none;
+        z-index: 1;
+    }
+
+    #Posts2 {
+        z-index: 4;
+    }
+
+    #Posts3 {
+        z-index: 3;
+    }
+
+    #Posts4 {
+        z-index: 2;
     }
     .OtherReads h2 {
         left: 25px;
@@ -958,6 +971,7 @@ footer span {
         width: 180px;
         height: 20px;
         display: flex;
+        cursor: pointer;
     }
     
     #ProgressBar div {
@@ -969,6 +983,9 @@ footer span {
         background: #C4C4C4;
     }
     
+    #one{
+        background: #286086 !important;
+    }
     
     
     
