@@ -36,7 +36,7 @@ footer {
     .ReadBody {
         position: absolute;
         top: 100px;
-        left: 50px;
+        left: 40px;
         width: calc(100% - 80px);
     }
     
@@ -52,7 +52,7 @@ footer {
         top: 113px;
         width: 100%;
         height: 500px;
-        background: url('./images/casual.png');
+        background: url('./images/outfit.png');
         background-size: cover;
     }
     
@@ -64,7 +64,52 @@ footer {
     
     footer {
         position: absolute;
-        top: 1950px !important;
+        top: 2350px !important;
+    }
+    
+    #here {
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media (max-width: 1030px) {
+    .ReadBody {
+        position: absolute;
+        top: 100px;
+        left: 25px;
+        width: calc(100% - 50px);
+    }
+
+    .ReadBody h1 {
+        font-size: 30px;
+    }
+    
+    .ReadBody span {
+        position: absolute;
+        top: 90px;
+        font-size: 20px;
+        color: #286086;
+    }
+    
+    .ReadBody .PostPhoto {
+        position: absolute;
+        top: 143px;
+        width: 100%;
+        height: calc(100vw - 50px);
+        background: url('./images/outfit.png');
+        background-size: cover;
+    }
+    
+    .ReadBody p {
+        position: absolute;
+        top: 533px;
+        width: 100%;
+    }
+    
+    footer {
+        position: absolute;
+        top: 2350px !important;
     }
     
     #here {
