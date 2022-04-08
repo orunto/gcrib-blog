@@ -182,6 +182,7 @@ p {
     left: 50px;
     width: 400px;
     height: 400px;
+    background: url('./images/Readoftheday.png') !important;
 }
 
 .ReadOfTheDay .Button {
@@ -271,13 +272,30 @@ p {
     top: 0;
 }
 
+#Posts2 .PostPhoto {
+    background: url('./images/posts2.png');
+}
+
+#Posts3 .PostPhoto {
+    background: url('./images/posts3.png');
+}
+
+#Posts4 .PostPhoto {
+    background: url('./images/posts4.png');
+}
+
+#Posts1 .PostPhoto {
+    background: url('./images/posts1.png');
+}
+
 #ProgressBar {
+    display: none;
     position: absolute;
     top: 644px;
     left: calc(50% - 90px);
     width: 180px;
     height: 20px;
-    display: flex;
+    /* display: flex; */
 }
 
 #ProgressBar div {

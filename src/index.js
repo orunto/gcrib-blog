@@ -28,7 +28,7 @@ function Posts (props) {
             <PostPhoto></PostPhoto>
             <div className="PostInfo">
             <h3>5 outfit mistakes you make</h3>
-            <span>Daniel Akindele</span>
+            <span>Fikayomi Akindele</span>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, turpis faucibus commodo proin quisque faucibus pharetra tempor aliquet.</p>
             <Button>
                 <span>Read More</span>
@@ -43,9 +43,9 @@ function Posts1 (props) {
         <div className="Posts" id="Posts1">
             <PostPhoto></PostPhoto>
             <div className="PostInfo">
-                <h3>5 outfit mistakes you make</h3>
-                <span>Daniel Akindele</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, turpis faucibus commodo proin quisque faucibus pharetra tempor aliquet.</p>
+                <h3>Black Friday Sales - Scam or Not</h3>
+                <span>Fikayomi Akindele</span>
+                <p>Holiday season is here and that means sales season is here. A lot of stores, both online and physical will offer a lot of sales between now and January next year. But...</p>
                 <Button>
                     <span>Read More</span>
                 </Button>
@@ -54,6 +54,53 @@ function Posts1 (props) {
     )
 }
 
+function Posts2 (props) {
+    return (
+        <div className="Posts" id="Posts2">
+            <PostPhoto></PostPhoto>
+            <div className="PostInfo">
+                <h3>5 Amazing Casual Outfits for Gentlemen</h3>
+                <span>Fikayomi Akindele</span>
+                <p>Casual is what most people will call their style and it's also how most people will dress most of the time. Casual style is very comfortable and can easily be done. </p>
+                <Button>
+                    <span>Read More</span>
+                </Button>
+            </div>
+        </div>
+    )
+}
+
+function Posts3 (props) {
+    return (
+        <div className="Posts" id="Posts3">
+            <PostPhoto></PostPhoto>
+            <div className="PostInfo">
+                <h3>How to clean your sneakers</h3>
+                <span>Fikayomi Akindele</span>
+                <p>Sneakers are a staple in any man's wardrobe and have continued to grow in popularity and demand in the last couple of years. I am pretty sure that you have a...</p>
+                <Button>
+                    <span>Read More</span>
+                </Button>
+            </div>
+        </div>
+    )
+}
+
+function Posts4 (props) {
+    return (
+        <div className="Posts" id="Posts4">
+            <PostPhoto></PostPhoto>
+            <div className="PostInfo">
+                <h3>Building a versatile and stylish men's wardrobe</h3>
+                <span>Fikayomi Akindele</span>
+                <p>We all know the benefits of looking good. The complements, the opportunities, the respect. You want to start taking your dressing seriously but you don't know...</p>
+                <Button>
+                    <span>Read More</span>
+                </Button>
+            </div>
+        </div>
+    )
+}
 // Interactions
 
 function Drop () {
@@ -82,7 +129,7 @@ function Header (){
             </ul>
 
             <Button>
-                <a id="foryou" href="https://blog.gentlemenscrib.com"><span>Visit Crib</span></a>
+                <span><a href="https://blog.gentlemenscrib.com">Visit Crib</a></span>
             </Button>
         </nav>
     );
@@ -94,12 +141,11 @@ function ReadOfTheDay() {
             <h1>Read of The Day</h1>
             <PostPhoto></PostPhoto>
             <h2>5 outfit mistakes you make</h2>
-            <span id="author">Daniel Akindele</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet diam eu, vitae pretium morbi ut massa condimentum. 
-                Nibh quis in nulla volutpat dui facilisi at sagittis, fringilla. Interdum ornare integer sit a est vitae ipsum. 
-                Tempus dolor mi pharetra, amet parturient. At semper in tincidunt nullam odio iaculis. 
-                Velit fringilla sed blandit semper viverra molestie aliquet at. Integer suspendisse pulvinar velit nunc vel cras vivamus. 
-                Arcu enim cursus amet in consequat. Quis et lacus amet, dignissim velit urna, velit ultrices. </p>
+            <span id="author">Fikayomi Akindele</span>
+            <p>You have finally decided to take your style seriously and make some improvements. You have started buying new clothes, maybe you are following some 
+                Instagram or Pinterest pages for style/outfit inspiration. Now the clothes have arrived and you have started putting outfits together but you encounter 
+                a problem, something seems off, the clothes don't look great on you. Well, today you'll learn why clothes may not look good on you, how to get past those
+                 issues and look better in your clothes. </p>
 
             <Button>
                 <span>Read More</span>
@@ -114,9 +160,9 @@ function OtherReads () {
             <h2>Other Reads for You</h2>
 
             <div className="ReadsPosts">
-                <Posts></Posts>
-                <Posts></Posts>
-                <Posts></Posts>
+                <Posts2></Posts2>
+                <Posts3></Posts3>
+                <Posts4></Posts4>
                 <Posts1></Posts1>
             </div>
             
@@ -129,7 +175,7 @@ function Footer (){
     return(
         <footer>
             <span id="crib">Gentlemen's Crib</span>
-            <a href="#navbar"><span id="backtotop">Back to Top</span></a>
+            <a href="#here"><span id="backtotop">Back to Top</span></a>
             <span id="visit">Visit Crib</span>
         </footer>
     );
