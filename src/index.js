@@ -14,12 +14,14 @@ function PostPhoto (props) {
 function ProgressBar (props) {
     return (
         <div id="ProgressBar">
-            <div id="one"></div>
-            <div id="two"></div>
-            <div id="three"></div>
-            <div id="four"></div>
+            <div onClick={firstread} id="one"></div>
+            <div onClick={secondread} id="two"></div>
+            <div onClick={thirdread} id="three"></div>
+            <div onClick={fourthread} id="four"></div>
         </div>
     )
+
+    
 }
 
 function Posts (props) {
@@ -40,7 +42,7 @@ function Posts (props) {
 
 function Posts1 (props) {
     return (
-        <div className="Posts" id="Posts1">
+        <div className="Posts" id="posts1">
             <a href="friday">
             <PostPhoto></PostPhoto>
             <div className="PostInfo">
@@ -58,7 +60,7 @@ function Posts1 (props) {
 
 function Posts2 (props) {
     return (
-        <div className="Posts" id="Posts2">
+        <div className="Posts" id="posts2">
             <a href="casual">
             <PostPhoto></PostPhoto>
             <div className="PostInfo">
@@ -76,7 +78,7 @@ function Posts2 (props) {
 
 function Posts3 (props) {
     return (
-        <div className="Posts" id="Posts3">
+        <div className="Posts" id="posts3">
             <a href="sneakers">
             <PostPhoto></PostPhoto>
             <div className="PostInfo">
@@ -94,7 +96,7 @@ function Posts3 (props) {
 
 function Posts4 (props) {
     return (
-        <div className="Posts" id="Posts4">
+        <div className="Posts" id="posts4">
             <a href="versatile">
             <PostPhoto></PostPhoto>
             <div className="PostInfo">
@@ -121,6 +123,53 @@ function Retract () {
     menu1.style.display = "block";
 }
 
+function firstread () {
+    one.style.background = "#286086";
+    two.style.background = "#C4C4C4";
+    three.style.background = "#C4C4C4";
+    four.style.background = "#C4C4C4";
+
+    posts2.style.zIndex = "4";
+    posts3.style.zIndex = "3";
+    posts4.style.zIndex = "2";
+    posts1.style.zIndex = "1";
+}
+
+function secondread () {
+    one.style.background = "#C4C4C4";
+    two.style.background = "#286086";
+    three.style.background = "#C4C4C4";
+    four.style.background = "#C4C4C4";
+
+    posts2.style.zIndex = "3";
+    posts3.style.zIndex = "4";
+    posts4.style.zIndex = "2";
+    posts1.style.zIndex = "1";
+}
+
+function thirdread () {
+    one.style.background = "#C4C4C4";
+    two.style.background = "#C4C4C4";
+    three.style.background = "#286086";
+    four.style.background = "#C4C4C4";
+
+    posts2.style.zIndex = "2";
+    posts3.style.zIndex = "3";
+    posts4.style.zIndex = "4";
+    posts1.style.zIndex = "1";
+}
+
+function fourthread () {
+    one.style.background = "#C4C4C4";
+    two.style.background = "#C4C4C4";
+    three.style.background = "#C4C4C4";
+    four.style.background = "#286086";
+
+    posts2.style.zIndex = "2";
+    posts3.style.zIndex = "3";
+    posts4.style.zIndex = "1";
+    posts1.style.zIndex = "4";
+}
 // Sections
 function Header (){
     return(

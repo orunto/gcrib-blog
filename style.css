@@ -288,19 +288,19 @@ p {
     top: 0;
 }
 
-#Posts2 .PostPhoto {
+#posts2 .PostPhoto {
     background: url('./images/posts2.png');
 }
 
-#Posts3 .PostPhoto {
+#posts3 .PostPhoto {
     background: url('./images/posts3.png');
 }
 
-#Posts4 .PostPhoto {
+#posts4 .PostPhoto {
     background: url('./images/posts4.png');
 }
 
-#Posts1 .PostPhoto {
+#posts1 .PostPhoto {
     background: url('./images/posts1.png');
 }
 
@@ -320,7 +320,7 @@ p {
     width: 20px;
     height: 20px;
     margin: auto;
-    background: #C4C4C4;
+    /* background: #C4C4C4; */
 }
 
 
@@ -626,7 +626,7 @@ footer span {
         margin: 0;
     }
     
-    #Posts1 {
+    #posts1 {
         display: none;
     }
     .OtherReads h2 {
@@ -649,7 +649,7 @@ footer span {
         width: 20px;
         height: 20px;
         margin: auto;
-        background: #C4C4C4;
+        /* background: #C4C4C4; */
     }
     
     
@@ -969,19 +969,19 @@ footer span {
         margin: 0;
     }
     
-    #Posts1 {
+    #posts1 {
         z-index: 1;
     }
 
-    #Posts2 {
+    #posts2 {
         z-index: 4;
     }
 
-    #Posts3 {
+    #posts3 {
         z-index: 3;
     }
 
-    #Posts4 {
+    #posts4 {
         z-index: 2;
     }
     .OtherReads h2 {
@@ -1004,12 +1004,23 @@ footer span {
         border: 1px solid #000000;
         width: 20px;
         height: 20px;
-        margin: auto;
-        background: #C4C4C4;
+        margin: auto;        
     }
     
     #one{
-        background: #286086 !important;
+        background: #286086;
+    }
+
+    #two{
+        background: #C4C4C4;
+    }
+
+    #three{
+        background: #C4C4C4;
+    }
+
+    #four{
+        background: #C4C4C4;
     }
     
     
