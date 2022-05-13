@@ -1,254 +1,209 @@
 // Design Components
 function Button (props) {
     return(
-        <div className="Button"> {props.children} </div>
+        <div className="Button"> 
+            {props.children} 
+            <img src="/images/Mouse.svg"></img>
+        </div>
     );
 }
 
-function PostPhoto (props) {
+function ArticleCard1 (props) {
     return(
-        <div className="PostPhoto">{props.children}</div>
-    );
-}
-
-function ProgressBar (props) {
-    return (
-        <div id="ProgressBar">
-            <div onClick={firstread} id="one"></div>
-            <div onClick={secondread} id="two"></div>
-            <div onClick={thirdread} id="three"></div>
-            <div onClick={fourthread} id="four"></div>
-        </div>
-    )
-
-    
-}
-
-function Posts (props) {
-    return (
-        <div className="Posts">
-            <PostPhoto></PostPhoto>
-            <div className="PostInfo">
-            <h3>5 outfit mistakes you make</h3>
+        <div className="ArticleCard" id="art1">
+            {props.children}
+            <div className="ArticleImg"></div>
+            <h3>How to clean your sneakers
+            <br></br>
+            The ultimate guide to sneaker care</h3>
             <span>Fikayomi Akindele</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, turpis faucibus commodo proin quisque faucibus pharetra tempor aliquet.</p>
-            <Button>
-            <a href="sneakers"><span>Read More</span></a>
-            </Button>
-            </div>
+            <p>In this article, I'll share with you all you need to know concerning the care and maintenance of your sneakers to keep them looking good for a long time.</p>
+            <Button>Read More</Button>
         </div>
     )
 }
 
-function Posts1 (props) {
-    return (
-        <div className="Posts" id="posts1">
-            <a href="friday">
-            <PostPhoto></PostPhoto>
-            <div className="PostInfo">
-                <h3>Black Friday Sales - Scam or Not</h3>
-                <span>Fikayomi Akindele</span>
-                <p>Holiday season is here and that means sales season is here. A lot of stores, both online and physical will offer a lot of sales between now and January next year. But...</p>
-                <Button>
-                <a href="friday"><span>Read More</span></a>
-                </Button>
-            </div>
-            </a>
+function ArticleCard2 (props) {
+    return(
+        <div className="ArticleCard" id="art2">
+            {props.children}
+            <div className="ArticleImg"></div>
+            <h3>Black Friday Sales
+                <br></br>
+            Scam or Not?</h3>
+            <span>Fikayomi Akindele</span>
+            <p>Could there be something more to it? Is it a scam. These and many more are the questions that shall be answered in this article.</p>
+            <Button>Read More</Button>
         </div>
     )
 }
 
-function Posts2 (props) {
-    return (
-        <div className="Posts" id="posts2">
-            <a href="casual">
-            <PostPhoto></PostPhoto>
-            <div className="PostInfo">
-                <h3>5 Amazing Casual Outfits for Gentlemen</h3>
-                <span>Fikayomi Akindele</span>
-                <p>Casual is what most people will call their style and it's also how most people will dress most of the time. Casual style is very comfortable and can easily be done. </p>
-                <Button>
-                <a href="casual"><span>Read More</span></a>
-                </Button>
-            </div>
-            </a>
-        </div>
-    )
-}
-
-function Posts3 (props) {
-    return (
-        <div className="Posts" id="posts3">
-            <a href="sneakers">
-            <PostPhoto></PostPhoto>
-            <div className="PostInfo">
-                <h3>How to clean your sneakers</h3>
-                <span>Fikayomi Akindele</span>
-                <p>Sneakers are a staple in any man's wardrobe and have continued to grow in popularity and demand in the last couple of years. I am pretty sure that you have a...</p>
-                <Button>
-                <a href="sneakers"><span>Read More</span></a>
-                </Button>
-            </div>
-            </a>
-        </div>
-    )
-}
-
-function Posts4 (props) {
-    return (
-        <div className="Posts" id="posts4">
-            <a href="versatile">
-            <PostPhoto></PostPhoto>
-            <div className="PostInfo">
-                <h3>Building a versatile and stylish men's wardrobe</h3>
-                <span>Fikayomi Akindele</span>
-                <p>We all know the benefits of looking good. The complements, the opportunities, the respect. You want to start taking your dressing seriously but you don't know...</p>
-                <Button>
-                <a href="versatile"><span>Read More</span></a>
-                </Button>
-            </div>
-            </a>
+function ArticleCard3 (props) {
+    return(
+        <div className="ArticleCard" id="art3">
+            {props.children}
+            <div className="ArticleImg"></div>
+            <h3>Building a versatile and stylish men's wardrobe
+            <br></br>
+            Men's style essentials</h3>
+            <span>Fikayomi Akindele</span>
+            <p>In this article, you will learn all the basics you need to build a wardrobe that will serve you well and greatly improve your style. Consider this as the foundation of your style journey.</p>
+            <Button>Read More</Button>
         </div>
     )
 }
 // Interactions
 
 function Drop () {
-    navbar.style.height = "400px";
-    menu1.style.display = "none";
+    dropdown.style.top = "0px";
+    menu.style.display = "none";
+    menu2.style.display = "block";
 }
 
 function Retract () {
-    navbar.style.height = "50px";
-    menu1.style.display = "block";
+    dropdown.style.top = "-600px";
+    menu2.style.display = "none";
+    menu.style.display = "block";
 }
 
-function firstread () {
-    one.style.background = "#286086";
-    two.style.background = "#C4C4C4";
-    three.style.background = "#C4C4C4";
-    four.style.background = "#C4C4C4";
 
-    posts2.style.zIndex = "4";
-    posts3.style.zIndex = "3";
-    posts4.style.zIndex = "2";
-    posts1.style.zIndex = "1";
+function MobileDrop () {
+    dropdown.style.top = "0px";
+    mobilemenu.style.display = "none";
+    mobilemenu2.style.display = "block";
 }
 
-function secondread () {
-    one.style.background = "#C4C4C4";
-    two.style.background = "#286086";
-    three.style.background = "#C4C4C4";
-    four.style.background = "#C4C4C4";
-
-    posts2.style.zIndex = "3";
-    posts3.style.zIndex = "4";
-    posts4.style.zIndex = "2";
-    posts1.style.zIndex = "1";
+function MobileRetract () {
+    dropdown.style.top = "-600px";
+    mobilemenu2.style.display = "none";
+    mobilemenu.style.display = "block";
 }
 
-function thirdread () {
-    one.style.background = "#C4C4C4";
-    two.style.background = "#C4C4C4";
-    three.style.background = "#286086";
-    four.style.background = "#C4C4C4";
 
-    posts2.style.zIndex = "2";
-    posts3.style.zIndex = "3";
-    posts4.style.zIndex = "4";
-    posts1.style.zIndex = "1";
+function ShowPartners () {
+    const button = document.querySelector(".Button");
+    creators.style.display = "block";
+    store.style.display = "block";
+    stylists.style.display = "block";
+    setTimeout(
+        function() {
+            creators.style.opacity = "1";
+            store.style.opacity = "1";
+            stylists.style.opacity = "1";
+        }
+    , 300);
+    partners.style.display = "none";
+    partners2.style.display = "block";
+    button.style.top = "515px";
 }
 
-function fourthread () {
-    one.style.background = "#C4C4C4";
-    two.style.background = "#C4C4C4";
-    three.style.background = "#C4C4C4";
-    four.style.background = "#286086";
-
-    posts2.style.zIndex = "2";
-    posts3.style.zIndex = "3";
-    posts4.style.zIndex = "1";
-    posts1.style.zIndex = "4";
+function HidePartners () {
+    const button = document.querySelector(".Button");
+    setTimeout(
+        function() {
+            creators.style.opacity = "0";
+            store.style.opacity = "0";
+            stylists.style.opacity = "0";
+        }
+    , 300);
+    creators.style.display = "none";
+    store.style.display = "none";
+    stylists.style.display = "none";
+    partners2.style.display = "none";
+    partners.style.display = "block";
+    button.style.top = "380px";
 }
+
+
+
 // Sections
 function Header (){
     return(
         <nav id="navbar">
-            <a href="https://gentlemenscrib.com"><img id="desktop" src="../images/Logo T.png" alt="logo"/></a>
-            <a href="https://gentlemenscrib.com"><img id="mobile" src="../images/Icon T.png" alt="logo" /></a>
-            <img className="menu" id="menu1" onClick={Drop} src="../images/Menu.svg" alt="logo"/>
-            <img className="menu" id="menu2" onClick={Retract} src="../images/Menu.svg" alt="logo"/>
-            <ul>
-                <li>For You</li>
-                <li>For Celebs</li>
-                <li>For Companies</li>
-                <li>Partners</li>
-            </ul>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Logo.png" id="logo"></img>
+            <img src="https://cdn.jsdelivr.net/gh/orunto/mycdn/gcrib/images/Icon.png" id="logo2"></img>
+            <span onClick={Drop} className="menu" id="menu">Menu<img src="/images/Menu.svg"></img></span>
+            <span onClick={Retract} className="menu" id="menu2">Menu<img src="/images/cancel.svg"></img></span>
+            <span id="search">Search<img src="/images/search.svg"></img></span>
 
-            <Button>
-                <span><a href="https://blog.gentlemenscrib.com">Visit Crib</a></span>
-            </Button>
+            <img onClick={MobileDrop} className="mobilemenu" id="mobilemenu" src="/images/Menu.svg"></img>
+            <img onClick={MobileRetract} className="mobilemenu" id="mobilemenu2" src="/images/cancel.svg"></img>
+            <img id="mobilesearch" src="/images/search.svg"></img>
+            <div id="dropdown">
+                <ul>
+                   <li> <a href="#">Home</a> </li>
+                   <li> <a href="#">For You</a> </li>
+                   <li> <a href="#">For You +</a> </li>
+                   <li id="partners" onClick={ShowPartners}> <a href="#">Partners <img src="/images/partner.svg"></img></a> </li>
+                   <li id="partners2" onClick={HidePartners}> <a href="#">Partners <img src="/images/partner.svg"></img></a> </li>
+                   <li className="partneritem" id="creators"> <a href="#">Creators</a> </li>
+                   <li className="partneritem" id="store"> <a href="#">Stores</a> </li>
+                   <li className="partneritem" id="stylists"> <a href="#">Stylists</a> </li>
+                   <li> <a href="#">For Companies</a> </li>
+                </ul>
+
+                <a href="#" id="dropbutton"><Button>Visit Crib</Button></a>
+            </div>
         </nav>
     );
 }
 
-function ReadOfTheDay() {
-    return(
-        <section className="ReadOfTheDay">
-            <a href="outfit">
-            <h1>Read of The Day</h1>
-            <PostPhoto></PostPhoto>
-            <h2>5 outfit mistakes you make</h2>
-            <span id="author">Fikayomi Akindele</span>
-            <p>You have finally decided to take your style seriously and make some improvements. You have started buying new clothes, maybe you are following some 
-                Instagram or Pinterest pages for style/outfit inspiration. Now the clothes have arrived and you have started putting outfits together but you encounter 
-                a problem, something seems off, the clothes don't look great on you. Well, today you'll learn why clothes may not look good on you, how to get past those
-                 issues and look better in your clothes. </p>
 
-            <Button>
-                <a href="outfit"><span>Read More</span></a>
-            </Button>
-            </a>
+function ReadoftheDay (){
+    return(
+        <section className="ReadoftheDay">
+            <span>Read of the Day</span>
+            <h2>5 Outfit Mistakes You Make</h2>
+            <p>Today you'll learn why clothes may not look good on you, how to get past those issues and look better in your clothes.</p>
+            <Button>Read More</Button>
         </section>
     )
 }
 
-function OtherReads () {
-    return (
-        <section className="OtherReads">
-            <h2>Other Reads for You</h2>
-
-            <div className="ReadsPosts">
-                <Posts2></Posts2>
-                <Posts3></Posts3>
-                <Posts4></Posts4>
-                <Posts1></Posts1>
-            </div>
-            
-            <ProgressBar></ProgressBar>
+function Yesterday (){
+    return(
+        <section className="Yesterday">
+            <span>Yesterday</span>
+            <h3>5 Amazing Casual Outfits for Gentlemen</h3>
+            <Button>Explore</Button>
         </section>
-    );
+    )
+}
+
+function MoreReads (){
+    return(
+        <section className="MoreReads">
+            <h2>More Reads for You</h2>
+            <ArticleCard1 />
+            <ArticleCard2 />
+            <ArticleCard3 />
+        </section>
+    )
 }
 
 function Footer (){
     return(
         <footer>
-            <span id="crib">Gentlemen's Crib</span>
-            <a href="#here"><span id="backtotop">Back to Top</span></a>
+            <span id="crib"><img src="/images/copyright.svg"></img> Gentlemen's Crib</span>
+            <a href="#menu"><span id="backtotop">Back to Top</span></a>
             <span id="visit">Visit Crib</span>
         </footer>
     );
 }
 
+
+
 function Home (){
     return(
         <body>
             <Header/>
-            <ReadOfTheDay />
-            <OtherReads />
+            <ReadoftheDay />
+            <Yesterday />
+            <MoreReads />
             <Footer />
         </body>
     );
 }
 
 ReactDOM.render(<Home />, document.getElementById("root"));
+

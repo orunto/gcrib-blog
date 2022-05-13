@@ -1,1057 +1,971 @@
-body {
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    font-family: 'Montserrat';
+@font-face {
+    font-family: 'Rische';
+    font-weight: bolder;
+    src: url('/assets/Rische\ Bold.otf');
 }
-* {
-    scroll-behavior: smooth;
+
+@font-face {
+    font-family: 'Rische';
+    font-weight: lighter;
+    src: url('/assets/Rische\ Light.otf');
 }
+
+@font-face {
+    font-family: 'Rische';
+    font-weight: normal;
+    src: url('/assets/Rische\ Regular.otf');
+}
+
+@font-face {
+    font-family: 'Rische';
+    font-weight: 500;
+    src: url('/assets/Rische\ Medium.otf');
+}
+
+@font-face {
+    font-family: 'Rische';
+    font-weight: bold;
+    src: url('/assets/Rische\ Semibold.otf');
+}
+
 #root {
-    width: 100vw;
-    scroll-behavior: smooth;
     overflow: hidden;
 }
-/* Standardized Components */
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-p {
-    font-size: 20px;
-}
-
-.PostPhoto {
-    position: absolute;
-    width: 240px;
-    height: 200px;
-    background: #C4C4C4;
-    border: 1.5px solid #000000;
-    box-sizing: border-box;
-    border-radius: 30px;
-}
-
-.PostPhoto p {
-    width: 200px;
+body {
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
-    font-size: 40px;
+    position: absolute;
+    top: 232px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Rische';
     font-weight: normal;
     margin: 0;
+    color: #286086;
 }
 
 h2 {
-    font-weight: normal;
+    font-size: 50px;
     margin: 0;
-    position: absolute;
+    font-family: 'Rische';
+    font-weight: bold;
+}
+
+h3 {
     font-size: 30px;
+    margin: 0;
+    font-family: 'Rische';
 }
 
-
-
-.Button {
+#logo {
     position: absolute;
-    width: 150px;
-    height: 40px;
-    background: #E28F1D;
-    color: white;
-    border: 1.5px solid #000000;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.3s;
+    top: 30px;
+    left: 50px;
+    height: 30px;
+    z-index: 3;
+    width: auto;
 }
 
-.Button:hover {
-    border: none;
-    box-shadow: 10px 10px 10px rgba(226, 143, 29, 0.25);
-}
-
-nav {
-    position: fixed;
-    width: 100%;
-    background: #232323;
-    color: #FFF;
-    height: 100px;
-    left: 0;
-    margin: 0;
-    z-index: 2;
-}
-
-nav .Button{
-    border: 1.5px solid white;
-}
-#desktop {
-    display: block;
-}
-
-#mobile {
+#logo2 {
     display: none;
 }
 
 .menu {
-    display: none;
-}
-
-#menu1 {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    color: #fff;
+    font-size: 20px;
+    width: 90px;
+    font-family: 'Montserrat';
     z-index: 3;
 }
 
-nav img {
+#menu {
+    display: block;
+}
+
+#menu2 {
+    width: 80px;
+    display: none;
+}
+
+#menu2 img {
+    width: 15px;
+    top: 5px;
+}
+
+.menu img {
     position: absolute;
-    left: 25px;
-    height: 100px;
-    width: auto;
+    right: 0;
+    top: 9px;
 }
 
-nav ul {
+.mobilemenu {
+    display: none;
+}
+#search {
     position: absolute;
-    top: 38px;
-    right: 261.5px;
-    list-style: none;
-    display: flex;
-    width: 685px;
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-}
-
-nav ul li {
-    margin: auto;
-    cursor: pointer;
-}
-
-nav .Button {
     top: 30px;
-    padding-top: 8px;
+    right: 188px;
+    color: #fff;
+    font-size: 20px;
+    width: 90px;
+    z-index: 3;
+    font-family: 'Montserrat';
+}
+
+#search img {
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+#dropdown {
+    position: absolute;
+    top: -600px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    transition: 0.3s;
+}
+
+#dropdown a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#dropdown ul {
+    list-style-type: none;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: right;
+    margin: 0;
+    transition: 0.3s;
+}
+
+#dropdown li {
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+#dropdown li img {
+    transition: 0.3s;
+    margin-bottom: 2px;
+}
+
+#partners {
+    display: block;
+}
+
+#partners2 {
+    display: none;
+}
+
+#partners2 img {
+    
+    transform: rotate(180deg);
+}
+
+.partneritem {
+    display: none;
+    opacity: 0;
+    font-size: 16px;
+}
+
+
+#navbar .Button {
+    position: absolute;
+    top: 380px;
+    right: 73px;
+}
+#chef {
+    position: absolute;
+    top: calc(50vh - 300px);
+    left: calc(50vw - 150px);
+}
+
+#chef2 {
+    display: none;
+}
+
+.Button {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #E28F1D;
+}
+
+.Button img {
+    position: absolute;
+    right: -23px;
+}
+
+.ArticleCard {
+    width: calc((100% / 3) - 60px);
+    height: 900px;
+}
+
+.ArticleCard .ArticleImg {
+    width: 100%;
+    height: 455px;
+    margin-bottom: 40px;
+}
+
+.ArticleCard h3 {
+    width: calc(100% - 40px);
+    margin-bottom: 20px;
+}
+
+.ArticleCard span {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ArticleCard p {
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Sora';
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+.ArticleCard .Button img{
+    position: unset;
+    margin-left: 10px;
+}
+
+
+/* Read of the day  */
+.ReadoftheDay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background: url('/images/Readoftheday.png');
+    background-size: cover;
+    color: #fff;
+}
+
+.ReadoftheDay span {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    color: #E28F1D;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.ReadoftheDay h2 {
+    position: absolute;
+    top: 312px;
+    left: 50px;
+    font-weight: normal;
+    width: 550px;
+    margin: 0;
+}
+
+.ReadoftheDay p {
+    margin: 0;
+    position: absolute;
+    top: 457px;
+    left: 50px;
+    font-weight: normal;
+    font-family: 'Sora';
+    font-weight: lighter;
+    font-size: 20px;
+    width: 550px;
+}
+
+.ReadoftheDay .Button {
+    position: absolute;
+    top: 554px;
+    left: 50px;
+}
+
+.Yesterday {
+    position: absolute;
+    width: 598px;
+    height: 200px;
+    right: 0;
+    top: 700px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/casual.png');
+    border-radius: 30px 0px 0px 0px;
+}
+
+.Yesterday span {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    color: #E28F1D;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+.Yesterday .Button {
+    position: absolute;
+    bottom: 20px;
     right: 50px;
 }
 
-
-nav .Button span {
+.Yesterday h3 {
     position: absolute;
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
+    top: 82px;
+    left: 40px;
+    font-weight: normal;
+    color: #fff;
 }
 
-.Button span {
+.MoreReads {
     position: absolute;
-    width: 100%;
-    font-size: 14px;
-    text-align: center;
-}
-
-
-
-
-/* For Men */
-.ReadOfTheDay {
-    position: absolute;
-    top: 130px;
+    top: 1000px;
     left: 0;
     width: 100%;
-    height: 400px;
-    overflow: hidden;
+    height: 1020px;
 }
 
-.ReadOfTheDay h1 {
+.MoreReads h2 {
     position: absolute;
-    top: 0;
-    left: 528px;
-    width: 100%;
-}
-
-.ReadOfTheDay h2 {
-    position: absolute;
-    top: 74px;
-    left: 528px;
-    width: 100%;
-}
-
-p {
-    margin: 0;
-}
-
-#author {
-    position: absolute;
-    top: 131px;
-    left: 528px;
-    font-weight: 500;
-    font-size: 20px;
-}
-.ReadOfTheDay p {
-    position: absolute;
-    top: 175px;
-    left: 528px;
-    width: calc(100% - 578px);
-}
-
-.ReadOfTheDay .PostPhoto {
-    position: absolute;
-    top: 0;
     left: 50px;
-    width: 400px;
-    height: 400px;
-    background: url('./images/Readoftheday.png') !important;
 }
 
-.ReadOfTheDay .Button {
+#art1 {
     position: absolute;
-    padding-top: 7px;
-    top: 352px;
-    width: 120px;
-    height: 35px;
-    left: 528px;
-}
-
-
-
-
-/* Other Reads of the Day */
-.OtherReads {
-    position: absolute;
-    top: 630px;
-    width: 100%;
-    height: 630px;
-}
-
-.ReadsPosts {
-    position: absolute;
-    top: 80px;
-    height: 505px;
-    width: 100%;
-    display: flex;
-}
-
-.Posts {
-    margin: auto;
-    width: 300px;
-    height: 505px;
-}
-
-.Posts .PostPhoto {
-    width: 300px;
-    height: 300px;
-}
-
-.Posts h3 {
-    left: 45px;
-    width: 300px;
-    font-size: 20px;
-    font-weight: normal;
-    margin-top: 325px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.Posts span {
-    width: 300px;
-    margin-top: 365px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Posts p {
-    width: 300px;
-    height: 70px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px;
-}
-
-.Posts .Button {
-    position: absolute;
-    padding-top: 7px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px;
-    width: 120px;
-    height: 35px;
-}
-
-.Posts .Button span {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-}
-
-
-.OtherReads h2 {
     left: 50px;
-    top: 0;
+    top: 110px;
 }
 
-#posts2 .PostPhoto {
-    background: url('./images/posts2.png');
+#art1 .ArticleImg {
+    background: url('/images/posts2.png');
+    background-position: center;
+    background-size: cover;
 }
 
-#posts3 .PostPhoto {
-    background: url('./images/posts3.png');
-}
-
-#posts4 .PostPhoto {
-    background: url('./images/posts4.png');
-}
-
-#posts1 .PostPhoto {
-    background: url('./images/posts1.png');
-}
-
-#ProgressBar {
-    display: none;
+#art2 {
     position: absolute;
-    top: 644px;
-    left: calc(50% - 90px);
-    width: 180px;
-    height: 20px;
-    /* display: flex; */
+    top: 110px;
+    left: calc(66.67% - (100% / 3) + 30px);
 }
 
-#ProgressBar div {
-    border-radius: 50%;
-    border: 1px solid #000000;
-    width: 20px;
-    height: 20px;
-    margin: auto;
-    /* background: #C4C4C4; */
+#art2 .ArticleImg{
+    background: url('/images/posts3.png');
+    background-size: cover;
 }
 
+#art3 {
+    position: absolute;
+    top: 110px;
+    right: 50px;
+}
 
+#art3 .ArticleImg {
+    background: url('/images/posts4.png');
+    background-size: cover;
+}
 
-
-
-/* Footer */
 footer {
-    display: flex;
     position: absolute;
-    top: 1350px;
+    top: 3700px;
+    left: 0;
     width: 100%;
-    height: 37px;
+    height: 100px;
     background: #232323;
-    color: white;
-    padding-top: 13px;
+    color: #fff;
     font-size: 20px;
-}
-
-footer span {
-    cursor: pointer;
+    font-family: 'Montserrat';
 }
 
 #crib {
     position: absolute;
-    left: 50px;
+    left: 80px;
+    top: 38px;
+}
+
+#crib img {
+    position: absolute;
+    top: 4px;
+    left: -30px;
 }
 
 #backtotop {
     position: absolute;
-    left: calc(50% - 59px);
+    left: calc(50% - 44.5px);
+    top: 38px;
+    color: #fff;
 }
 
 #visit {
     position: absolute;
     right: 50px;
+    top: 38px;
 }
 
-
-@media (max-width: 1399px) and (min-width: 1200px) {
-    body {
-        width: 100vw;
-        margin: 0;
-        padding: 0;
-        scroll-behavior: smooth;
-        font-family: 'Montserrat';
-    }
-    
-    #root {
-        width: 100vw;
-        overflow: hidden;
-    }
-    /* Standardized Components */
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-    
-    p {
-        font-size: 20px;
-    }
-    
-    .PostPhoto {
-        position: absolute;
-        width: 200px;
-        height: 180px;
-        background: #C4C4C4;
-        border: 1.5px solid #000000;
-        box-sizing: border-box;
-        border-radius: 30px;
-    }
-    
-    .PostPhoto p {
-        width: 140px;
-    }
-    
-    h1 {
-        font-size: 40px;
-        font-weight: normal;
-        margin: 0;
-    }
-    
+@media (max-width: 1300px) {
     h2 {
-        font-weight: normal;
+        font-size: 50px;
         margin: 0;
-        position: absolute;
-        font-size: 30px;
-    }
-    
-    
-    
-    .Button {
-        position: absolute;
-        width: 120px;
-        height: 35px;
-        background: #E28F1D;
-        border: 1.5px solid #000000;
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-        cursor: pointer;
-        border-radius: 10px;
-    }
-    
-    nav {
-        position: fixed;
-        background: #232323;
-        color: #FFF;
-        width: 100%;
-        height: 80px;
-        left: 0;
-        margin: 0;
-        z-index: 2;
+        font-family: 'Rische';
+        font-weight: bold;
     }
 
-    #desktop {
-        display: block;
-    }
-    
-    #mobile {
-        display: none;
-    }
-    
-    nav img {
+    #logo {
         position: absolute;
-        left: 40px;
-        height: 80px;
+        top: 30px;
+        left: 50px;
+        height: 30px;
+        z-index: 3;
         width: auto;
     }
     
-    nav ul {
-        position: absolute;
-        top: 30px;
-        right: 200px;
-        list-style: none;
-        display: flex;
-        width: 563px;
-        margin: 0;
-        padding: 0;
-        font-size: 16px;
-    }
-    
-    nav ul li {
-        margin: auto;
-        cursor: pointer;
-    }
-    
-    nav .Button {
-        top: 22px;
-        padding-top: 8px;
-        right: 40px;
-    }
-    
-    nav .Button span {
-        position: absolute;
-        width: 100%;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .Button span {
-        position: absolute;
-        width: 100%;
-        font-size: 14px;
-        text-align: center;
-    }
-    
-    
-    
-    
-    /* For Men */
-    .ReadOfTheDay {
-        position: absolute;
-        top: 130px;
-        left: 0;
-        width: 100%;
-        height: 400px;
-        overflow: hidden;
-    }
-    
-    .ReadOfTheDay h1 {
-        position: absolute;
-        top: 0;
-        left: 528px;
-        width: 100%;
-    }
-    
-    .ReadOfTheDay h2 {
-        position: absolute;
-        top: 74px;
-        left: 528px;
-        width: 100%;
-    }
-    
-    p {
-        margin: 0;
-    }
-    
-    #author {
-        position: absolute;
-        top: 131px;
-        left: 528px;
-        font-weight: 500;
-        font-size: 20px;
-    }
-    .ReadOfTheDay p {
-        position: absolute;
-        top: 175px;
-        left: 528px;
-        width: calc(100% - 578px);
-        height: 150px;
-        overflow: hidden;
-    }
-    
-    .ReadOfTheDay .PostPhoto {
-        position: absolute;
-        top: 0;
-        left: 40px;
-        width: 400px;
-        height: 400px;
-    }
-    
-    .ReadOfTheDay .Button {
-        position: absolute;
-        padding-top: 7px;
-        top: 352px;
-        width: 120px;
-        height: 35px;
-        left: 528px;
-    }
-    
-    
-    
-    
-    /* OtherReads */
-    .OtherReads {
-        position: absolute;
-        top: 630px;
-        width: 100%;
-        height: 630px;
-        overflow: hidden;
-    }
-    
-    .ReadsPosts {
-        position: absolute;
-        top: 80px;
-        left: -25px;
-        height: 505px;
-        width: calc(100% + 50px);
-        display: flex;
-    }
-    
-    .Posts {
-        margin: auto;
-        width: 300px;
-        height: 505px;
-    }
-    
-    .Posts .PostPhoto {
-        width: 300px;
-        height: 300px;
-    }
-    
-    .Posts h3 {
-        left: 45px;
-        width: 300px;
-        font-size: 20px;
-        font-weight: normal;
-        margin-top: 325px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .Posts span {
-        width: 300px;
-        margin-top: 365px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .Posts p {
-        width: 300px;
-        height: 70px;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 14px;
-    }
-    
-    .Posts .Button {
-        position: absolute;
-        padding-top: 7px;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 14px;
-        width: 120px;
-        height: 35px;
-    }
-    
-    .Posts .Button span {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-    }
-    
-    #posts1 {
+    #logo2 {
         display: none;
     }
-    .OtherReads h2 {
-        left: 50px;
-        top: 0;
-    }
     
-    #ProgressBar {
+    .menu {
         position: absolute;
-        top: 641px;
-        left: calc(50% - 90px);
-        width: 180px;
-        height: 20px;
-        display: flex;
-    }
-    
-    #ProgressBar div {
-        border-radius: 50%;
-        border: 1px solid #000000;
-        width: 20px;
-        height: 20px;
-        margin: auto;
-        /* background: #C4C4C4; */
-    }
-    
-    
-    
-    
-    /* Footer */
-    footer {
-        display: flex;
-        position: absolute;
-        top: 1350px;
-        width: 100%;
-        height: 37px;
-        background: #232323;
-        color: white;
-        padding-top: 13px;
+        top: 30px;
+        right: 50px;
+        color: #fff;
         font-size: 20px;
+        width: 90px;
+        font-family: 'Montserrat';
+        z-index: 3;
+    }
+    
+    #menu {
+        display: block;
+    }
+    
+    #menu2 {
+        display: none;
+    }
+    .menu img {
+        position: absolute;
+        right: 0;
+        top: 9px;
+    }
+    
+    #search {
+        position: absolute;
+        top: 30px;
+        right: 188px;
+        color: #fff;
+        font-size: 20px;
+        width: 90px;
+        z-index: 3;
+        font-family: 'Montserrat';
+    }
+    
+    #search img {
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+    
+    #dropdown {
+        position: absolute;
+        top: -600px;
+        left: 0;
+        width: 100%;
+        height: 600px;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    #dropdown a {
+        text-decoration: none;
+        color: #fff;
+        transition: 0.3s;
+    }
+    
+    #dropdown ul {
+        list-style-type: none;
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-align: right;
+        margin: 0;
+        transition: 0.3s;
+    }
+    
+    #dropdown li {
+        margin-bottom: 25px;
+        transition: 0.3s;
+    }
+    
+    #dropdown li img {
+        transition: 0.3s;
+        margin-bottom: 2px;
+    }
+    
+    #partners {
+        display: block;
+    }
+    
+    #partners2 {
+        display: none;
+    }
+    
+    .partneritem {
+        display: none;
+        opacity: 0;
+        font-size: 16px;
+    }
+    
+    
+    #navbar .Button {
+        position: absolute;
+        top: 380px;
+        right: 73px;
+    }
+    #chef {
+        position: absolute;
+        top: calc(50vh - 300px);
+        left: calc(50vw - 150px);
+    }
+    
+    #chef2 {
+        display: none;
+    }
+    
+    h1 {
+        position: absolute;
+        top: 232px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Rische';
+        font-weight: normal;
+        margin: 0;
+        color: #286086;
+    }
+
+    footer {
+        position: absolute;
+        top: 3700px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: #232323;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Montserrat';
     }
     
     #crib {
         position: absolute;
         left: 50px;
+        top: 38px;
     }
     
     #backtotop {
         position: absolute;
-        left: calc(50% - 59px);
+        left: calc(50% - 44.5px);
+        top: 38px;
+        color: #fff;
     }
     
     #visit {
         position: absolute;
         right: 50px;
+        top: 38px;
     }
 }
 
+@media (max-width: 1000px) {
+    .ForMen{
+        background-size: 155%;
+    }
 
-
-
-@media (max-width: 1030px) {
-    body {
-        width: 100%;
+    h2 {
+        font-size: 40px;
         margin: 0;
-        padding: 0;
-        scroll-behavior: smooth;
+        font-family: 'Rische';
+        font-weight: bold;
+    }
+
+    #logo {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        height: 30px;
+        z-index: 3;
+        width: auto;
+    }
+    
+    #logo2 {
+        display: none;
+    }
+    
+    .menu {
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        color: #fff;
+        font-size: 20px;
+        width: 90px;
+        font-family: 'Montserrat';
+        z-index: 3;
+    }
+    
+    #menu {
+        display: block;
+    }
+    
+    #menu2 {
+        display: none;
+    }
+    .menu img {
+        position: absolute;
+        right: 0;
+        top: 9px;
+    }
+    
+    #search {
+        position: absolute;
+        top: 30px;
+        right: 188px;
+        color: #fff;
+        font-size: 20px;
+        width: 90px;
+        z-index: 3;
         font-family: 'Montserrat';
     }
     
-    #root {
-        width: 100vw;
-        overflow: hidden;
-    }
-    /* Standardized Components */
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-    
-    p {
-        font-size: 14px;
-    }
-    
-    .PostPhoto {
+    #search img {
         position: absolute;
-        width: 240px;
-        height: 200px;
-        background: #C4C4C4;
-        border: 1.5px solid #000000;
-        box-sizing: border-box;
-        border-radius: 30px;
+        right: 0;
+        top: 5px;
     }
     
-    .PostPhoto p {
-        width: 140px;
+    #dropdown {
+        position: absolute;
+        top: -600px;
+        left: 0;
+        width: 100%;
+        height: 600px;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    #dropdown a {
+        text-decoration: none;
+        color: #fff;
+        transition: 0.3s;
+    }
+    
+    #dropdown ul {
+        list-style-type: none;
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-align: right;
+        margin: 0;
+        transition: 0.3s;
+    }
+    
+    #dropdown li {
+        margin-bottom: 25px;
+        transition: 0.3s;
+    }
+    
+    #dropdown li img {
+        transition: 0.3s;
+        margin-bottom: 2px;
+    }
+    
+    #partners {
+        display: block;
+    }
+    
+    #partners2 {
+        display: none;
+    }
+    
+    .partneritem {
+        display: none;
+        opacity: 0;
+        font-size: 16px;
+    }
+    
+    
+    #navbar .Button {
+        position: absolute;
+        top: 380px;
+        right: 73px;
+    }
+    #chef {
+        position: absolute;
+        top: calc(50vh - 300px);
+        left: calc(50vw - 150px);
+    }
+    
+    #chef2 {
+        display: none;
     }
     
     h1 {
-        font-size: 35px;
+        position: absolute;
+        top: 232px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Rische';
         font-weight: normal;
         margin: 0;
-    }
-    
-    h2 {
-        font-weight: normal;
-        margin: 0;
-        position: absolute;
-        font-size: 20px;
-    }
-    
-    
-    
-    .Button {
-        position: absolute;
-        width: 150px;
-        height: 40px;
-        background: #E28F1D;
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-        cursor: pointer;
-        border-radius: 10px;
-    }
-    
-    nav {
-        position: absolute;
-        width: 100%;
-        height: 50px;
-        transition: 0.3s;
-        left: 0;
-        margin: 0;
-        z-index: 2;
-        background: #232323;
-        color: white;
-        overflow: hidden;
+        color: #286086;
     }
 
-    #desktop {
-        display: none;
-    }
-    
-    #mobile {
-        display: block;
-        left: 10px;
-        height: 50px;
-        width: auto;
-    }    
-    
-    
-    .menu {
-        display: block;
-        position: absolute;
-        left: 322px;
-        height: 15px;
-        top: 17px;
-        width: auto;
-        cursor: pointer;
-    }
-
-    nav img {
-        position: absolute;
-    }
-    
-    nav ul {
-        display: block;
-        position: absolute;
-        top: 90px;
-        left: calc(50% - 76px);
-        list-style: none;
-        width: 152px;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        font-size: 16px;
-    }
-    
-    nav ul li {
-        margin-bottom: 25px;
-        cursor: pointer;
-    }
-    
-    nav .Button {
-        top: 290px;
-        padding-top: 8px;
-        left: calc(50% - 75px);
-        background: #232323;
-        border: 1.5px solid white;
-    }
-    
-    .Button span {
-        position: absolute;
-        width: 100%;
-        font-size: 16px;
-        text-align: center;
-    }
-    
-    
-    
-    
-    /* For Men */
-    .ReadOfTheDay {
-        position: absolute;
-        top: 100px;
-        left: 0;
-        width: 100vw;
-        height: 625px;
-    }
-    
-    .ReadOfTheDay h1 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        text-align: center;
-    }
-    
-    .ReadOfTheDay h2 {
-        position: absolute;
-        top: 415px;
-        left: 0;
-        width: 100%;
-        text-align: center;
-    }
-    
-    p {
-        margin: 0;
-    }
-    
-    #author {
-        position: absolute;
-        top: 460px;
-        left: 0;
-        font-weight: 500;
-        font-size: 14px;
-        width: 100%;
-        text-align: center;
-    }
-    .ReadOfTheDay p {
-        position: absolute;
-        top: 491px;
-        left: 25px;
-        text-align: center;
-        width: calc(100% - 50px);
-        height: 70px;
-        overflow: hidden;
-    }
-    
-    .ReadOfTheDay .PostPhoto {
-        position: absolute;
-        top: 70px;
-        left: 25px;
-        width: calc(100% - 50px);
-        height: calc(100vw - 50px);
-    }
-    
-    .ReadOfTheDay .Button {
-        position: absolute;
-        padding-top: 7px;
-        top: 574px;
-        width: calc(100% - 50px);
-        height: 35px;
-        left: 25px;
-    }
-    
-    
-    
-    
-    /* OtherReads */
-    .PostInfo{
-        position: absolute;
-        top: 225px;
-        left: 0;
-        width: 100%;
-        height: 100px;
-        background: white;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        box-sizing: border-box;
-        border-radius: 0px 0px 20px 20px;
-    }
-
-    .OtherReads {
-        position: absolute;
-        top: 807px;
-        width: 100%;
-        height: 630px;
-        overflow: hidden;
-    }
-    
-    .ReadsPosts {
-        position: absolute;
-        top: 65px;
-        left: 0;
-        height: 505px;
-        width: calc(100% + 50px);
-        display: flex;
-    }
-    
-    .Posts {
-        position: absolute;
-        top: 0;
-        left: 25px;
-        width: calc(100vw - 50px);
-        height: calc(100vw - 50px);
-    }
-    
-    .Posts .PostPhoto {
-        width: 100%;
-        height: 100%;
-    }
-    
-    .Posts h3 {
-        position: absolute;
-        left: 15px;
-        top: 15px;
-        width: 300px;
-        font-size: 18px;
-        font-weight: normal;
-        margin: 0;
-    }
-    .Posts span {
-        position: absolute;
-        top: 64px;
-        left: 15px;
-        margin: 0;
-        font-size: 12px;
-    }
-    
-    .Posts p {
-        display: none;
-    }
-    
-    .Posts .Button {
-        display: none;
-    }
-    
-    .Posts .Button span {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-    }
-    
-    #posts1 {
-        z-index: 1;
-    }
-
-    #posts2 {
-        z-index: 4;
-    }
-
-    #posts3 {
-        z-index: 3;
-    }
-
-    #posts4 {
-        z-index: 2;
-    }
-    .OtherReads h2 {
-        left: 25px;
-        top: 0;
-    }
-    
-    #ProgressBar {
-        position: absolute;
-        top: 425px;
-        left: calc(50% - 90px);
-        width: 180px;
-        height: 20px;
-        display: flex;
-        cursor: pointer;
-    }
-    
-    #ProgressBar div {
-        border-radius: 50%;
-        border: 1px solid #000000;
-        width: 20px;
-        height: 20px;
-        margin: auto;        
-    }
-    
-    #one{
-        background: #286086;
-    }
-
-    #two{
-        background: #C4C4C4;
-    }
-
-    #three{
-        background: #C4C4C4;
-    }
-
-    #four{
-        background: #C4C4C4;
-    }
-    
-    
-    
-    /* Footer */
     footer {
-        display: flex;
         position: absolute;
-        top: 1350px;
+        top: 3700px;
+        left: 0;
         width: 100%;
         height: 100px;
         background: #232323;
-        color: white;
-        padding-top: 16px;
-        font-size: 16px;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Montserrat';
     }
     
     #crib {
         position: absolute;
-        left: 25px;
+        left: 50px;
+        top: 38px;
+    }
+
+    #crib img {
+        position: absolute;
+        top: 2px;
+        left: -30px;
     }
     
     #backtotop {
         position: absolute;
-        left: 25px;
-        top: 53px;
+        left: calc(50% - 44.5px);
+        top: 38px;
+        color: #fff;
     }
     
     #visit {
         position: absolute;
-        right: 25px;
-        top: 53px;
-    }   
+        right: 50px;
+        top: 38px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 30px;
+        margin: 0;
+        font-family: 'Rische';
+        font-weight: bold;
+    }
+
+    #logo {
+        display: none;
+    }
+    
+    #logo2 {
+        position: absolute;
+        top: 25px;
+        left: 30px;
+        height: 20px;
+        z-index: 3;
+        width: auto;
+        display: block;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu2 {
+        display: none;
+    }
+    .mobilemenu {
+        position: absolute;
+        display: block;
+        top: 32px;
+        right: 30px;
+        color: #fff;
+        font-size: 16px;
+        width: 20px;
+        font-family: 'Montserrat';
+        z-index: 3;
+    }
+    
+    #mobilemenu2 {
+        display: none;
+        top: 30px;
+        width: 15px;
+    }
+    #search {
+        display: none;
+    }
+    
+    #mobilesearch {
+        position: absolute;
+        top: 30px;
+        right: 65px;
+        color: #fff;
+        font-size: 16px;
+        width: 15px;
+        z-index: 3;
+        font-family: 'Montserrat';
+    }
+
+    #search img {
+        position: absolute;
+        right: 0;
+        top: 2px;
+        width: 16px;
+    }
+    
+    #dropdown {
+        position: absolute;
+        top: -600px;
+        left: 0;
+        width: 100%;
+        height: 600px;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    #dropdown a {
+        text-decoration: none;
+        color: #fff;
+        transition: 0.3s;
+    }
+    
+    #dropdown ul {
+        list-style-type: none;
+        position: absolute;
+        top: 100px;
+        right: 30px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-align: right;
+        margin: 0;
+        transition: 0.3s;
+    }
+    
+    #dropdown li {
+        margin-bottom: 25px;
+        transition: 0.3s;
+    }
+    
+    #dropdown li img {
+        transition: 0.3s;
+        margin-bottom: 2px;
+    }
+    
+    #partners {
+        display: block;
+    }
+    
+    #partners2 {
+        display: none;
+    }
+    
+    .partneritem {
+        display: none;
+        opacity: 0;
+        font-size: 16px;
+    }
+    
+    
+    #navbar .Button {
+        position: absolute;
+        top: 380px;
+        right: 53px;
+    }
+    #chef {
+        position: absolute;
+        top: 150px;
+        left: calc(50vw - 125px);
+        width: 250px;
+        height: 500px;
+    }
+    
+    #chef2 {
+        display: none;
+    }
+    
+    h1 {
+        position: absolute;
+        top: 232px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Rische';
+        font-weight: bold;
+        margin: 0;
+        color: #286086;
+    }
+
+    footer {
+        position: absolute;
+        top: 4000px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: #232323;
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }
+    
+    #crib {
+        position: absolute;
+        left: 60px;
+        top: 15px;
+    }
+    
+    #backtotop {
+        position: absolute;
+        right: 30px;
+        top: 50px;
+        color: #fff;
+        width: max-content;
+        left: unset;
+    }
+    
+    #visit {
+        position: absolute;
+        left: 30px;
+        top: 50px;
+        width: max-content;
+    }
 }
