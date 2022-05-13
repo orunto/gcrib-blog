@@ -360,8 +360,8 @@ h3 {
 
 #art1 .ArticleImg {
     background: url('/images/posts2.png');
-    background-size: cover;
-    transition: 0.3s;
+    background-size: 100%;
+    background-position: center;
     
 }
 
@@ -412,7 +412,8 @@ h3 {
 
 #art2 .ArticleImg{
     background: url('/images/posts1.png');
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
     transition: 0.3s;
 }
 
@@ -424,7 +425,8 @@ h3 {
 
 #art3 .ArticleImg {
     background: url('/images/posts4.png');
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
 }
 
 footer {
