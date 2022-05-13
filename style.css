@@ -362,18 +362,45 @@ h3 {
     background: url('/images/posts2.png');
     background-size: cover;
     transition: 0.3s;
+    
+}
+
+@keyframes Backzoom {
+    5% {background-size: 101%;}
+    10% {background-size: 102%;}
+    15% {background-size: 103%;}
+    20% {background-size: 104%;}
+    25% {background-size: 105%;}
+    30% {background-size: 106%;}
+    35% {background-size: 107%;}
+    40% {background-size: 108%;}
+    45% {background-size: 109%;}
+    50% {background-size: 110%;}
+    55% {background-size: 111%;}
+    60% {background-size: 112%;}
+    65% {background-size: 113%;}
+    70% {background-size: 114%;}
+    75% {background-size: 115%;}
+    80% {background-size: 116%;}
+    85% {background-size: 117%;}
+    90% {background-size: 118%;}
+    95% {background-size: 119%;}
+    100% {background-size: 120%;}
 }
 
 #art1 .ArticleImg:hover {
-    background-size: 120%;
+    animation: Backzoom 0.3s;
+    animation-fill-mode: forwards;
 }
 
 #art2 .ArticleImg:hover {
-    background-size: 120%;
+    animation: Backzoom 0.3s;
+    animation-fill-mode: forwards;
 }
 
 #art3 .ArticleImg:hover {
-    background-size: 120%;
+    animation: Backzoom 0.3s;
+    animation-fill-mode: forwards;
 }
 
 #art2 {
