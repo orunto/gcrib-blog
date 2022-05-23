@@ -1325,7 +1325,7 @@ footer {
     
     .ReadBody h1 {
         position: absolute;
-        top: 150px;
+        top: 100px;
         left: 30px;
         width: calc(100% - 60px);
         text-align: center;
@@ -1335,7 +1335,7 @@ footer {
     
     .ReadBody span {
         position: absolute;
-        top: 309px;
+        top: 259px;
         width: 100%;
         text-align: center;
         color: #fff;
@@ -1345,11 +1345,11 @@ footer {
     }
     
     #sneakerspan {
-        top: 422px;
+        top: 400px;
     }
     
     #versatilespan {
-        top: 422px;
+        top: 400px;
     }
     
     .ReadBody p {
