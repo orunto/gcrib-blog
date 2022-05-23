@@ -83,7 +83,7 @@ h3 {
     font-size: 20px;
     width: 90px;
     font-family: 'Montserrat';
-    z-index: 3;
+    z-index: 4;
     cursor: pointer;
 }
 
@@ -117,7 +117,7 @@ h3 {
     color: #fff;
     font-size: 20px;
     width: 90px;
-    z-index: 3;
+    z-index: 4;
     font-family: 'Montserrat';
     cursor: pointer;
 }
@@ -135,7 +135,7 @@ h3 {
     width: 100%;
     height: 600px;
     background: rgba(0, 0, 0, 0.9);
-    z-index: 2;
+    z-index: 3;
     transition: 0.3s;
 }
 
@@ -576,7 +576,7 @@ footer {
         font-size: 20px;
         width: 90px;
         font-family: 'Montserrat';
-        z-index: 3;
+        z-index: 4;
     }
     
     #menu {
@@ -599,7 +599,7 @@ footer {
         color: #fff;
         font-size: 20px;
         width: 90px;
-        z-index: 3;
+        z-index: 4;
         font-family: 'Montserrat';
     }
     
@@ -616,7 +616,7 @@ footer {
         width: 100%;
         height: 600px;
         background: rgba(0, 0, 0, 0.9);
-        z-index: 2;
+        z-index: 3;
         transition: 0.3s;
     }
     
@@ -756,7 +756,7 @@ footer {
         font-size: 20px;
         width: 90px;
         font-family: 'Montserrat';
-        z-index: 3;
+        z-index: 4;
     }
     
     #menu {
@@ -779,7 +779,7 @@ footer {
         color: #fff;
         font-size: 20px;
         width: 90px;
-        z-index: 3;
+        z-index: 4;
         font-family: 'Montserrat';
     }
     
@@ -796,7 +796,7 @@ footer {
         width: 100%;
         height: 600px;
         background: rgba(0, 0, 0, 0.9);
-        z-index: 2;
+        z-index: 3;
         transition: 0.3s;
     }
     
@@ -987,7 +987,7 @@ footer {
         font-size: 16px;
         width: 20px;
         font-family: 'Montserrat';
-        z-index: 3;
+        z-index: 4;
     }
     
     #mobilemenu2 {
@@ -1006,7 +1006,7 @@ footer {
         color: #fff;
         font-size: 16px;
         width: 15px;
-        z-index: 3;
+        z-index: 4;
         font-family: 'Montserrat';
     }
 
@@ -1019,12 +1019,12 @@ footer {
     
     #dropdown {
         position: absolute;
-        top: -600px;
+        top: -500px;
         left: 0;
         width: 100%;
-        height: 600px;
+        height: 500px;
         background: rgba(0, 0, 0, 0.9);
-        z-index: 2;
+        z-index: 3;
         transition: 0.3s;
     }
     
@@ -1291,6 +1291,88 @@ footer {
         background-position: center;
         background-repeat: no-repeat;
     }
+
+
+    .PostPhoto {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #casualheader {
+        background: url('/images/casualheadermobile.png');
+    }
+
+    #outfitheader {
+        background: url('/images/outfitheadermobile.png');
+    }
+    
+    #fridayheader {
+        background: url('/images/fridayheadermobile.png');
+    }
+    
+    #sneakersheader {
+        background: url('/images/sneakersheadermobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .ReadBody h1 {
+        position: absolute;
+        top: 150px;
+        left: 30px;
+        width: calc(100% - 60px);
+        text-align: center;
+        color: #fff;
+        z-index: 2;
+    }
+    
+    .ReadBody span {
+        position: absolute;
+        top: 309px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        z-index: 2;
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }
+    
+    #sneakerspan {
+        top: 422px;
+    }
+    
+    #versatilespan {
+        top: 422px;
+    }
+    
+    .ReadBody p {
+        position: absolute;
+        top: 600px;
+        left: 30px;
+        width: calc(100% - 60px);
+        font-size: 16px;
+        font-family: 'Sora';
+        font-weight: 300;
+    }
+    
+    #fridayfooter {
+        top: 3000px;
+    }
+    
+    #sneakersfooter {
+        top: 3500px;
+    }
+    
+    #versatilefooter {
+        top: 4000px;
+    }
+
     footer {
         position: absolute;
         top: 3100px;

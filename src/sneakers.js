@@ -302,7 +302,7 @@ As you should know, your shoes should be stored in a cool and dry place away fro
 function Footer (){
     return(
         <footer id="sneakersfooter">
-            <span id="crib">Gentlemen's Crib</span>
+            <span id="crib"><img src="/images/copyright.svg"></img> Gentlemen's Crib</span>
             <a href="#here"><span id="backtotop">Back to Top</span></a>
             <span id="visit">Visit Crib</span>
         </footer>

@@ -52,6 +52,15 @@ function ArticleCard3 (props) {
         </div>
     )
 }
+
+
+function PostPhoto() {
+    return(
+        <div className="PostPhoto" id="casualheader"></div>
+    )
+}
+
+
 // Interactions
 
 function Drop () {
@@ -251,7 +260,7 @@ function ReadBody() {
 function Footer (){
     return(
         <footer>
-            <span id="crib">Gentlemen's Crib</span>
+            <span id="crib"><img src="/images/copyright.svg"></img> Gentlemen's Crib</span>
             <a href="#here"><span id="backtotop">Back to Top</span></a>
             <span id="visit">Visit Crib</span>
         </footer>
@@ -264,7 +273,7 @@ function Outfit (){
     return(
         <body>
             <Header />
-            {/* <ReadBody /> */}
+            <ReadBody />
             <Footer />
         </body>
     );
