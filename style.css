@@ -459,6 +459,10 @@ h3 {
     background-repeat: no-repeat;
 }
 
+#versatileheader {
+    background: url('/images/versatileheader.png');
+}
+
 .ReadBody h1 {
     position: absolute;
     top: 250px;
@@ -1322,6 +1326,10 @@ footer {
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    #versatileheader {
+        background: url('/images/versatileheadermobile.png');
+    }
     
     .ReadBody h1 {
         position: absolute;
@@ -1372,7 +1380,7 @@ footer {
     }
     
     #versatilefooter {
-        top: 4000px;
+        top: 6000px;
     }
 
     footer {
