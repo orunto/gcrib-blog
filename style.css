@@ -1340,6 +1340,10 @@ footer {
         color: #fff;
         z-index: 2;
     }
+
+    #sneak {
+        font-size: 35px;
+    }
     
     .ReadBody span {
         position: absolute;
@@ -1353,7 +1357,7 @@ footer {
     }
     
     #sneakerspan {
-        top: 400px;
+        top: 35 0px;
     }
     
     #versatilespan {
@@ -1376,7 +1380,7 @@ footer {
     }
     
     #sneakersfooter {
-        top: 4000px;
+        top: 4500px;
     }
     
     #versatilefooter {

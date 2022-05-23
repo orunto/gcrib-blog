@@ -158,7 +158,7 @@ function Header (){
 function ReadBody() {
     return (
         <section className="ReadBody">
-            <h1>How to clean your sneakers (The ultimate guide to sneaker care)</h1>
+            <h1 id="sneak">How to clean your sneakers (The ultimate guide to sneaker care)</h1>
             <span id="sneakerspan">Fikayomi Akindele</span>
             <PostPhoto></PostPhoto>
             <p>Sneakers are a staple in any man's wardrobe and have continued to grow in popularity and demand in the last couple of years. I am pretty sure that you have a pair or more, and similar to any other piece in your wardrobe, maintenance and care play a large role in how long your sneakers will last.
