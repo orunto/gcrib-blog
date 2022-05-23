@@ -18,7 +18,7 @@ function ArticleCard1 (props) {
             The ultimate guide to sneaker care</h3>
             <span>Fikayomi Akindele</span>
             <p>In this article, I'll share with you all you need to know concerning the care and maintenance of your sneakers to keep them looking good for a long time.</p>
-            <Button>Read More</Button>
+            <a href="sneakers"><Button>Read More</Button></a>
         </div>
     )
 }
@@ -33,7 +33,7 @@ function ArticleCard2 (props) {
             Scam or Not?</h3>
             <span>Fikayomi Akindele</span>
             <p>Could there be something more to it? Is it a scam. These and many more are the questions that shall be answered in this article.</p>
-            <Button>Read More</Button>
+            <a href="friday"><Button>Read More</Button></a>
         </div>
     )
 }
@@ -48,7 +48,7 @@ function ArticleCard3 (props) {
             Men's style essentials</h3>
             <span>Fikayomi Akindele</span>
             <p>In this article, you will learn all the basics you need to build a wardrobe that will serve you well and greatly improve your style. Consider this as the foundation of your style journey.</p>
-            <Button>Read More</Button>
+            <a href="veratile"><Button>Read More</Button></a>
         </div>
     )
 }
@@ -155,7 +155,7 @@ function ReadoftheDay (){
             <span>Read of the Day</span>
             <h2>5 Outfit Mistakes You Make</h2>
             <p>Today you'll learn why clothes may not look good on you, how to get past those issues and look better in your clothes.</p>
-            <Button>Read More</Button>
+            <a href="outfit"><Button>Read More</Button></a>
         </section>
     )
 }
@@ -165,7 +165,7 @@ function Yesterday (){
         <section className="Yesterday">
             <span>Yesterday</span>
             <h3>5 Amazing Casual Outfits for Gentlemen</h3>
-            <Button>Explore</Button>
+            <a href="casual"><Button>Explore</Button></a>
         </section>
     )
 }
