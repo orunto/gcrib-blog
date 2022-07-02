@@ -16,7 +16,7 @@ function ArticleCard1 (props) {
             <h3>How to clean your sneakers
             <br></br>
             The ultimate guide to sneaker care</h3>
-            <span>Fikayomi Akindele</span>
+            <span>Fikayo Akindele</span>
             <p>In this article, I'll share with you all you need to know concerning the care and maintenance of your sneakers to keep them looking good for a long time.</p>
             <Button>Read More</Button>
         </div>
@@ -31,7 +31,7 @@ function ArticleCard2 (props) {
             <h3>Black Friday Sales
                 <br></br>
             Scam or Not?</h3>
-            <span>Fikayomi Akindele</span>
+            <span>Fikayo Akindele</span>
             <p>Could there be something more to it? Is it a scam. These and many more are the questions that shall be answered in this article.</p>
             <Button>Read More</Button>
         </div>
@@ -46,7 +46,7 @@ function ArticleCard3 (props) {
             <h3>Building a versatile and stylish men's wardrobe
             <br></br>
             Men's style essentials</h3>
-            <span>Fikayomi Akindele</span>
+            <span>Fikayo Akindele</span>
             <p>In this article, you will learn all the basics you need to build a wardrobe that will serve you well and greatly improve your style. Consider this as the foundation of your style journey.</p>
             <Button>Read More</Button>
         </div>
@@ -159,7 +159,7 @@ function ReadBody() {
     return (
         <section className="ReadBody">
             <h1 id="sneak">How to clean your sneakers (The ultimate guide to sneaker care)</h1>
-            <span id="sneakerspan">Fikayomi Akindele</span>
+            <span id="sneakerspan">Fikayo Akindele</span>
             <PostPhoto></PostPhoto>
             <p>Sneakers are a staple in any man's wardrobe and have continued to grow in popularity and demand in the last couple of years. I am pretty sure that you have a pair or more, and similar to any other piece in your wardrobe, maintenance and care play a large role in how long your sneakers will last.
                 
