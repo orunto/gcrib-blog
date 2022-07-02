@@ -55,7 +55,7 @@ function ArticleCard3 (props) {
 
 function PostPhoto() {
     return(
-        <div className="PostPhoto" id="sneakersheader"></div>
+        <div className="PostPhoto" id="skinheader"></div>
     )
 }
 

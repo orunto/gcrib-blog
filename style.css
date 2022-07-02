@@ -262,7 +262,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 800px;
-    background: url('/images/Readoftheday.png');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/skin.webp');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -312,7 +312,9 @@ h3 {
     right: 0;
     top: 700px;
 
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/casual.png');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/outfit.png');
+    background-position: center;
+    background-size: cover;
     border-radius: 30px 0px 0px 0px;
 }
 
@@ -455,6 +457,13 @@ h3 {
 
 #sneakersheader {
     background: url('/images/sneakersheader.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#skinheader {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/skin.webp');
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1135,7 +1144,7 @@ footer {
         left: 0;
         width: 100%;
         height: 800px;
-        background: url('/images/Readoftheday.png');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/skin.webp');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -1187,7 +1196,9 @@ footer {
         left: 94px;
         top: 650px;
 
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/casual.png');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/outfit.png');
+        background-position: center;
+        background-size: cover;
         border-radius: 15px 0px 0px 0px;
     }
 
@@ -1338,6 +1349,13 @@ footer {
         background-repeat: no-repeat;
     }
 
+    #skinheader {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/skin.webp');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     #versatileheader {
         background: url('/images/versatileheadermobile.png');
     }
@@ -1355,7 +1373,7 @@ footer {
     .ReadBody img {
         width: 100%;
     }
-    
+
     #sneak {
         font-size: 35px;
     }
