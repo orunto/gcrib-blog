@@ -28,6 +28,10 @@
     src: url('/assets/Rische\ Semibold.otf');
 }
 
+a {
+    text-decoration: none;
+}
+
 #root {
     overflow: hidden;
 }
