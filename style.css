@@ -484,6 +484,14 @@ h3 {
     font-family: 'Montserrat';
 }
 
+.ReadBody img {
+    width: 50%;
+}
+
+.ReadBody h3 {
+    text-align: left;
+}
+
 #sneakerspan {
     top: 422px;
 }
@@ -511,6 +519,9 @@ h3 {
     top: 3500px;
 }
 
+#skinfooter {
+    top: 7500px;
+}
 #versatilefooter {
     top: 4000px;
 }
@@ -1341,6 +1352,10 @@ footer {
         z-index: 2;
     }
 
+    .ReadBody img {
+        width: 100%;
+    }
+    
     #sneak {
         font-size: 35px;
     }
@@ -1383,6 +1398,9 @@ footer {
         top: 4500px;
     }
     
+    #skinfooter {
+        top: 6300px;
+    }
     #versatilefooter {
         top: 6000px;
     }
