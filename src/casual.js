@@ -16,7 +16,7 @@ function ArticleCard1 (props) {
             <h3>How to clean your sneakers
             <br></br>
             The ultimate guide to sneaker care</h3>
-            <span>Fikayo Akindele</span>
+            <span>Fikayomi</span>
             <p>In this article, I'll share with you all you need to know concerning the care and maintenance of your sneakers to keep them looking good for a long time.</p>
             <Button>Read More</Button>
         </div>
@@ -31,7 +31,7 @@ function ArticleCard2 (props) {
             <h3>Black Friday Sales
                 <br></br>
             Scam or Not?</h3>
-            <span>Fikayo Akindele</span>
+            <span>Fikayomi</span>
             <p>Could there be something more to it? Is it a scam. These and many more are the questions that shall be answered in this article.</p>
             <Button>Read More</Button>
         </div>
@@ -46,7 +46,7 @@ function ArticleCard3 (props) {
             <h3>Building a versatile and stylish men's wardrobe
             <br></br>
             Men's style essentials</h3>
-            <span>Fikayo Akindele</span>
+            <span>Fikayomi</span>
             <p>In this article, you will learn all the basics you need to build a wardrobe that will serve you well and greatly improve your style. Consider this as the foundation of your style journey.</p>
             <Button>Read More</Button>
         </div>
@@ -161,7 +161,7 @@ function ReadBody() {
     return (
         <section className="ReadBody">
             <h1>5 Amazing Casual Outfits for Gentlemen</h1>
-            <span>Fikayo Akindele</span>
+            <span>Fikayomi</span>
             <PostPhoto></PostPhoto>
             <p>Casual is what most people will call their style and it's also how most people will dress most of the time. Casual style is very comfortable and can easily be done. Unfortunately, casual is usually an excuse for some people not to put effort in their dress and end up dressing terribly. I am sure you have observed it as well, everyone wears the same low effort style and calls it casual.
 

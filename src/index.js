@@ -16,7 +16,7 @@ function ArticleCard1 (props) {
             <h3>How to clean your sneakers
             <br></br>
             The ultimate guide to sneaker care</h3>
-            <span>Fikayo Akindele</span>
+            <span>Fikayomi</span>
             <p>In this article, I'll share with you all you need to know concerning the care and maintenance of your sneakers to keep them looking good for a long time.</p>
             <a href="sneakers"><Button>Read More</Button></a>
         </div>
@@ -31,7 +31,7 @@ function ArticleCard2 (props) {
             <h3>Black Friday Sales
                 <br></br>
             Scam or Not?</h3>
-            <span>Fikayo Akindele</span>
+            <span>Fikayomi</span>
             <p>Could there be something more to it? Is it a scam. These and many more are the questions that shall be answered in this article.</p>
             <a href="friday"><Button>Read More</Button></a>
         </div>
@@ -46,7 +46,7 @@ function ArticleCard3 (props) {
             <h3>Building a versatile and stylish men's wardrobe
             <br></br>
             Men's style essentials</h3>
-            <span>Fikayo Akindele</span>
+            <span>Fikayomi</span>
             <p>In this article, you will learn all the basics you need to build a wardrobe that will serve you well and greatly improve your style. Consider this as the foundation of your style journey.</p>
             <a href="veratile"><Button>Read More</Button></a>
         </div>

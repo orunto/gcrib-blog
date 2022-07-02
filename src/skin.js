@@ -16,7 +16,7 @@ function ArticleCard1 (props) {
             <h3>How to clean your sneakers
             <br></br>
             The ultimate guide to sneaker care</h3>
-            <span>Fikayo Adebayo</span>
+            <span>Fikayomi</span>
             <p>In this article, I'll share with you all you need to know concerning the care and maintenance of your sneakers to keep them looking good for a long time.</p>
             <Button>Read More</Button>
         </div>
@@ -31,7 +31,7 @@ function ArticleCard2 (props) {
             <h3>Black Friday Sales
                 <br></br>
             Scam or Not?</h3>
-            <span>Fikayo Adebayo</span>
+            <span>Fikayomi</span>
             <p>Could there be something more to it? Is it a scam. These and many more are the questions that shall be answered in this article.</p>
             <Button>Read More</Button>
         </div>
@@ -46,7 +46,7 @@ function ArticleCard3 (props) {
             <h3>Building a versatile and stylish men's wardrobe
             <br></br>
             Men's style essentials</h3>
-            <span>Fikayo Adebayo</span>
+            <span>Fikayomi</span>
             <p>In this article, you will learn all the basics you need to build a wardrobe that will serve you well and greatly improve your style. Consider this as the foundation of your style journey.</p>
             <Button>Read More</Button>
         </div>
@@ -159,7 +159,7 @@ function ReadBody() {
     return (
         <section className="ReadBody">
             <h1 id="sneak">SKIN CARE TIPS FOR MEN (BEST SKINCARE ROUTINE FOR MEN).</h1>
-            <span id="sneakerspan">Fikayo Adebayo</span>
+            <span id="sneakerspan">Fikayomi</span>
             <PostPhoto></PostPhoto>
             <p>Your face is your money maker. It is the first place people often look at and start forming an impression about you. It is an important and often forgotten part of your appearance. Think about this, you are in a new place and you don't know your way around. I am sure that you look around at people and use their faces/ appearances to determine who you would be asking for directions.
                 
