@@ -153,8 +153,8 @@ function ReadoftheDay (){
     return(
         <section className="ReadoftheDay">
             <span>Read of the Day</span>
-            <h2>5 Outfit Mistakes You Make</h2>
-            <p>Today you'll learn why clothes may not look good on you, how to get past those issues and look better in your clothes.</p>
+            <h2>Skin Care Tips For Men (Best Skincare Routine For Men).</h2>
+            <p>Now, while not all of us have been blessed with fantastic genes, there are many things that we can do to maximize the potential we have. In this article I'll be sharing with you a very simple skincare routine as well as some tips that will help you to improve and maintain great skin.</p>
             <a href="skin"><Button>Read More</Button></a>
         </section>
     )
@@ -164,7 +164,7 @@ function Yesterday (){
     return(
         <section className="Yesterday">
             <span>Yesterday</span>
-            <h3>5 Amazing Casual Outfits for Gentlemen</h3>
+            <h3>5 Outfit Mistakes You Make</h3>
             <a href="casual"><Button>Explore</Button></a>
         </section>
     )
