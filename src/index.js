@@ -154,7 +154,7 @@ function ReadoftheDay (){
         <section className="ReadoftheDay">
             <span>Read of the Day</span>
             <h2>Skin Care Tips For Men (Best Skincare Routine For Men).</h2>
-            <p>Now, while not all of us have been blessed with fantastic genes, there are many things that we can do to maximize the potential we have. In this article I'll be sharing with you a very simple skincare routine as well as some tips that will help you to improve and maintain great skin.</p>
+           {/* <p>Now, while not all of us have been blessed with fantastic genes, there are many things that we can do to maximize the potential we have. In this article I'll be sharing with you a very simple skincare routine as well as some tips that will help you to improve and maintain great skin.</p> */}
             <a href="skin"><Button>Read More</Button></a>
         </section>
     )
