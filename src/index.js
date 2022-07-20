@@ -28,15 +28,44 @@ function ArticleCard2 (props) {
         <div className="ArticleCard" id="art2">
             {props.children}
             <div className="ArticleImg"></div>
-            <h3>Black Friday Sales
-                <br></br>
-            Scam or Not?</h3>
+            <h3>5 Outfit Mistakes You Make</h3>
             <span>Fikayomi</span>
-            <p>Could there be something more to it? Is it a scam. These and many more are the questions that shall be answered in this article.</p>
-            <a href="friday"><Button>Read More</Button></a>
+            <p>Today you'll learn why clothes may not look good on you, how to get past 
+                those issues and look better in your clothes.</p>
+            <a href="outfit"><Button>Read More</Button></a>
         </div>
     )
 }
+
+// function ArticleCard2 (props) {
+//     return(
+//         <div className="ArticleCard" id="art2">
+//             {props.children}
+//             <div className="ArticleImg"></div>
+//             <h3>Black Friday Sales
+//                 <br></br>
+//             Scam or Not?</h3>
+//             <span>Fikayomi</span>
+//             <p>Could there be something more to it? Is it a scam. These and many more are the questions that shall be answered in this article.</p>
+//             <a href="friday"><Button>Read More</Button></a>
+//         </div>
+//     )
+// }
+
+// function ArticleCard3 (props) {
+//     return(
+//         <div className="ArticleCard" id="art2">
+//             {props.children}
+//             <div className="ArticleImg"></div>
+//             <h3>Black Friday Sales
+//                 <br></br>
+//             Scam or Not?</h3>
+//             <span>Fikayomi</span>
+//             <p>Could there be something more to it? Is it a scam. These and many more are the questions that shall be answered in this article.</p>
+//             <a href="friday"><Button>Read More</Button></a>
+//         </div>
+//     )
+// }
 
 function ArticleCard3 (props) {
     return(
@@ -48,7 +77,7 @@ function ArticleCard3 (props) {
             Men's style essentials</h3>
             <span>Fikayomi</span>
             <p>In this article, you will learn all the basics you need to build a wardrobe that will serve you well and greatly improve your style. Consider this as the foundation of your style journey.</p>
-            <a href="veratile"><Button>Read More</Button></a>
+            <a href="versatile"><Button>Read More</Button></a>
         </div>
     )
 }
@@ -152,10 +181,10 @@ function Header (){
 function ReadoftheDay (){
     return(
         <section className="ReadoftheDay">
-            <span>Read of the Day</span>
-            <h2>Skin Care Tips For Men (Best Skincare Routine For Men).</h2>
-           {/* <p>Now, while not all of us have been blessed with fantastic genes, there are many things that we can do to maximize the potential we have. In this article I'll be sharing with you a very simple skincare routine as well as some tips that will help you to improve and maintain great skin.</p> */}
-            <a href="skin"><Button>Read More</Button></a>
+            <span>Read of the Day </span>
+            <h2>How to wear a suit (6 suit rules every man must follow)</h2>
+           {/* <p>In this article, we will be giving you that knowledge, we will be sharing 6 rules every man must follow when wearing a suit</p> */}
+            <a href="suit"><Button>Read More</Button></a>
         </section>
     )
 }
@@ -164,8 +193,8 @@ function Yesterday (){
     return(
         <section className="Yesterday">
             <span>Yesterday</span>
-            <h3>5 Outfit Mistakes You Make</h3>
-            <a href="casual"><Button>Explore</Button></a>
+            <h3>Skin Care Tips For Men.</h3>
+            <a href="skin"><Button>Explore</Button></a>
         </section>
     )
 }
