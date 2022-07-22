@@ -366,7 +366,7 @@ h3 {
 }
 
 #art1 .ArticleImg {
-    background: url('/images/posts2.png');
+    background: url('/images/skin.webp');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1270,7 +1270,7 @@ footer {
     }
 
     #art1 .ArticleImg {
-        background: url('/images/posts2.png');
+        background: url('/images/skin.webp');
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
