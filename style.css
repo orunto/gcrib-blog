@@ -479,6 +479,15 @@ h3 {
     background-repeat: no-repeat;
 }
 
+
+#accessoriesheader {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/suitwatch.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 #versatileheader {
     background: url('/images/versatileheader.png');
 }

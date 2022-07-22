@@ -55,7 +55,7 @@ function ArticleCard3 (props) {
 
 function PostPhoto() {
     return(
-        <div className="PostPhoto" id="skinheader"></div>
+        <div className="PostPhoto" id="accessoriesheader"></div>
     )
 }
 
@@ -164,119 +164,112 @@ function ReadBody() {
             <p>There are certain accessories every man should have no matter how old or young he is and regardless of his occupation and lifestyle. Some of these accessories might be used as scarcely as once in three months, however, when the need to use them arrives, he will not need to worry and will only need to slide into them.
                 <br></br>
                 <br></br>
-            <b>6 rules every man must follow when wearing a suit.</b>
-                <img src="./images/coat.png"/>
+                <b>Below are accessories every man should have in his possession.</b>
                 <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
-                <h3>6 Rules every man must follow when wearing a suit</h3>
+                <b>1. Cufflinks</b>
                 <br></br>
                 <br></br>
-                This routine has a few uncomplicated steps so it's a very easy habit to pick up and you don't waste your time with a 70 step routine. Consider this as the foundation of your skin care on which you build and add steps as suited for you.
+                Cufflinks are one of the classiest accessories you should own. 
+                <br></br>
+                <br></br>
+                <img src="./images/cufflinks.png" />
+                <br></br>
+                <br></br>
+                A pair of cufflinks can transform your casual dressing into a professional one, and also leave the statement on everyone you cross paths with that you groom yourself down to the littlest details. Cufflinks also add to your gentleman's aura and can be worn on a date to get your lady melting. These cuffs come in different styles. They could be silver-plated, gold-coloured, glittery or conservative. Going for one you're comfortable in is very important as it will either boost or mar your level of confidence. Cufflinks are used on both plain and striped shirts as well as tailored suits which you should grab a hold of if you don't already own.
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
 
-
-
+                <b>2. A wristwatch</b>
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-
-                <b>1. Your Suit should fit properly </b>
-                <br></br>
-                <br></br>
-                <img src="./images/suitfit.png" />
-                <br></br>
-                <br></br>
-                Fit is the most important part of a suit. A well fitting cheap suit will always look better than an expensive designer suit that doesn't fit well. Here are a few pointers on how to nail the fit of your suit;
-                <br></br>
-                <br></br>
-                <ul>
-                    <li>The collar of your jacket should rest on the collar of your shirt without any gap.</li>
-                    <li>The shoulder seam of the jacket should end exactly where your shoulder ends.</li>
-                    <li>About a quarter to half an inch of your shirt cuff should be visible under your jacket sleeve.</li>
-                    <li>For your jacket length, your suit jacket should be long enough to cover your buttocks and should stop around your knuckles.</li>
-                    <li>Your trousers should sit on or slightly above your waist. It shouldn't be too tight or loose at the hip or thighs.</li>
-                    <li>For most men a quarter break or no break is the right length for your trousers. Taller men can have a full break. (A break in your trousers is the fold of fabric at the bottom of your pants that rests on your shoes).</li>
-                </ul>
+                A wristwatch is an essential accessory you must own as a man. This timepiece works beyond letting you know the time of the day. It is also a fashion statement that gives off the vibe that you are mature, accountable, confident and respect the importance of (your) time.  Wristwatches can be either leather or metal and come in different colours and styles. Rather than having multiple cheap ones, invest in a classy watch worthy of being around your wrist. 
 
                 <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
 
-                <b>2. Jacket Buttons</b>
+                <b>3. Belt</b>
                 <br></br>
                 <br></br>
-                <img src="./images/suitbuttons.png" />
-                <br></br>
-                <br></br>
-                If your jacket has a single button then obviously, that button should be fastened but in cases where you have a two-button or three-button jacket, <b>do not fasten the bottom button.</b> The top button on a three-button jacket is optional, you can choose to fasten it or not.
-If you have a three-piece suit, the bottom button of your waistcoat should also be left undone.
+                Another accessory the modern man must own are belts. There are belts which fit casual dressings and situations such as strolling in a park and paying a visit to your friend(s). These belts tend to be either multicoloured or brightly coloured. There are also professional belts which more often than not, are conservative in colour such as different shades of brown, and black. They go well with suits, and tuxedos and should be worn during meetings, dinner dates and so on. Every gentleman should possess at least two casual and business belts of great quality to smoothen his fashion experience.
 
                 <br></br>
                 <br></br>
-                When sitted, you should unbutton your jacket to help it stay well on you and not damage the structure.
+                <br></br>
+                <br></br>
+
+                <b>4. A wallet</b>
+                <br></br>
+                <br></br>
+                A gentleman should own a wallet of high quality preferably of a neutral colour because they match the colour of roughly all outfits. Wallets are a way of expressing your fashion taste as well as keeping your personal belongings such as money and documents safe and organised. If your wallet has lost its shape or/and aesthetics, you should change it as this accessory can have a lasting impact on people's perception of you.
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
+                <b>5. Sunglasses</b>
+                <br></br>
+                <br></br>
+                Although sunglasses are great for protecting your eyes from excess (sun) light, they also add a touch of mystery to your persona and make whoever you engage curious. 
+                <br></br>
+                <br></br>
+                <img src="./images/sunglasses.png" />
+                <br></br>
+                <br></br>
+                They also conceal imperfections and make your face appear more symmetrical which means that an average individual will find you more physically attractive with sunglasses on than not. They can also affect how you behave, making you more calm, cool and masculine. However, there are many scenes where putting one on will be uncalled for such as wearing one all through a date, during a business meeting or hours after the sun sets.
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
+                <b>6. Perfume</b>
+                <br></br>
+                <br></br>
+                A nice perfume perks up your level of attractiveness and presents you as a sharp man who has his things put together.   They make you feel fresher, go well with all other accessories and transform impressions people have of you into long-lasting memories. Perfumes also boost your confidence, increase your sex appeal and make you come across as a well-groomed professional in your place of work. When choosing a fragrance to adopt as yours, it is advised that you go for lighter scents with long-lasting effects because this increases how personal it becomes. 
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
+                <b>7. Jewellery</b>
+                <br></br>
+                <br></br>
+                When it comes to pieces of jewellery, you do not have to think about it. A small ring on a finger of your choice, a bracelet around either or both wrists or/and necklaces communicate your style or sentimental symbols to everyone that needs to know. 
                 
                 <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
 
-                <b>3. Remove Tags and Stitching</b>
+                <b>8. Ties</b>
                 <br></br>
                 <br></br>
-                <img src="./images/suitstitch.png" />
-                <br></br>
-                <br></br>
-                When you get a new suit you will usually find that the pockets and vents are stitched, you are supposed to cut the stitching from those vents and pockets.
-
-                <br></br>
-                <br></br>
-                You will also find some tags and the brand label on the sleeve. While it may be tempting not to remove these things so that everyone can know what brand of suit you have on, you should remove them. It is a suit, not a jersey.
-                
-                <br></br>
-                <br></br>
-                (A vent is a slit that extends upwards from the the bottom at the backside of a suit jacket)
+                Ties have always been a symbol of honour and nobility, hence, it'll do you more good than not to adopt the style of wearing one, especially as a part of your professional outfit. Ties also signify capability which although you might be unaware of, tells those you engage with that you are confident of your abilities to execute that which is expected of you flawlessly. If you are considering beginning your necktie collection but you are unsure on the colours to start with, solid black and navy ties cannot harm your dress. 
 
                 <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
 
-                <b>4. Match Your Leathers and Metals</b>
+                <b>9. Suspenders</b>
                 <br></br>
                 <br></br>
-                <img src="./images/leather.png" />
+                Although suspenders are gradually becoming outdated since the introduction of belt to hold your trousers/shorts to your waist, its rareness has made it identified with formalities. However, they can be used casually, for humour and to stand out.
                 <br></br>
                 <br></br>
-                It's as simple as it sounds, the leather on your shoes match your belt and watch strap and the metal on your belt buckle should match your watch. This is to prevent clashes in your outfit. There may be some cases where this rule may not apply like if you are wearing white leather sneakers. It's mainly applicable if you're going for a classic menswear look with dress shoes and a dress watch.
-
+                <img src="./images/suspenders.png" />
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-
-                <b>5. Manage Your Accessories</b>
-                <br></br>
-                <br></br>
-                <img src="./images/accessories.png" />
-                <br></br>
-                <br></br>
-                When wearing a suit you should be thoughtful about your accessories. Don't wear sports watches like a G-Shock or smart watches. Stick to a minimal dress watch with a leather or metal strap. Keep other accessories as minimal as possible. You shouldn't try to wear all the suit accessories you can lay your hands on all at once. <b>Less is more.</b> A pocket square, a tie bar and your watch are good enough. You can add one ring if you have to. Not wearing a pocket square, lapel pin and a Boutonnière all at once.
-
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-
-                <b>6. Don't Stuff Your Pockets</b>
-                <br></br>
-                <br></br>
-                Not all those extra pockets on your suit are supposed to be packed full. If possible, keep all the pockets on the outer part of your suit empty (except for your pocket square of course). You can put your phone and wallet in the pocket inside your suit jacket.
-                <br></br>
-                <br></br>
-                That's all for now. By applying these rules you will greatly improve how you look in your suits. You should share this article with your friends to help them improve their suit game as well. You can get more fashion tips on our <a href="">Twitter</a> and <a href="">Instagram.</a>
+                All these accessories are ones every man is expected to have. If however, you find yourself uncomfortable with using a few of these accessories, don't. Of all accessories, your originality is the greatest of all.
             </p>
         </section>
     );
