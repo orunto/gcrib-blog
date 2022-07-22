@@ -55,7 +55,7 @@ function ArticleCard3 (props) {
 
 function PostPhoto() {
     return(
-        <div className="PostPhoto" id="suitheader"></div>
+        <div className="PostPhoto" id="skinheader"></div>
     )
 }
 
@@ -158,12 +158,13 @@ function Header (){
 function ReadBody() {
     return (
         <section className="ReadBody">
-            <h1 id="sneak">HOW TO WEAR  A SUIT (6 SUIT RULES EVERY MAN MUST FOLLOW)</h1>
-            <span id="sneakerspan">Fikayomi</span>
+            <h1 id="sneak">9 Accessories Every Man Should Have</h1>
+            <span id="sneakerspan">Stephen</span>
             <PostPhoto></PostPhoto>
-            <p>A suit is as classy and as elegant as a man's attire can get. It is an attire that sends the message of power and competence if worn properly. We at gentlemen's crib believe that every man should own at least one suit and should have the knowledge on how to wear it properly. In this article, we will be giving you that knowledge, we will be sharing <b>6 rules every man must follow when wearing a suit.</b>
+            <p>There are certain accessories every man should have no matter how old or young he is and regardless of his occupation and lifestyle. Some of these accessories might be used as scarcely as once in three months, however, when the need to use them arrives, he will not need to worry and will only need to slide into them.
                 <br></br>
                 <br></br>
+            <b>6 rules every man must follow when wearing a suit.</b>
                 <img src="./images/coat.png"/>
                 <br></br>
                 <br></br>
