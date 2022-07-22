@@ -278,7 +278,7 @@ function ReadBody() {
 
 function Footer (){
     return(
-        <footer id="skinfooter">
+        <footer id="accessoriesfooter">
             <span id="crib"><img src="/images/copyright.svg"></img> Gentlemen's Crib</span>
             <a href="#here"><span id="backtotop">Back to Top</span></a>
             <span id="visit">Visit Crib</span>

@@ -13,12 +13,12 @@ function ArticleCard1 (props) {
         <div className="ArticleCard" id="art1">
             {props.children}
             <div className="ArticleImg"></div>
-            <h3>How to clean your sneakers
+            <h3>Skin Care Tips For Men 
             <br></br>
-            The ultimate guide to sneaker care</h3>
+            (Best Skincare Routine For Men).</h3>
             <span>Fikayomi</span>
-            <p>In this article, I'll share with you all you need to know concerning the care and maintenance of your sneakers to keep them looking good for a long time.</p>
-            <a href="sneakers"><Button>Read More</Button></a>
+            <p>In this article I'll be sharing with you a very simple skincare routine as well as some tips that will help you to improve and maintain great skin.</p>
+            <a href="skin"><Button>Read More</Button></a>
         </div>
     )
 }
@@ -182,9 +182,9 @@ function ReadoftheDay (){
     return(
         <section className="ReadoftheDay">
             <span>Read of the Day </span>
-            <h2>How to wear a suit (6 suit rules every man must follow)</h2>
+            <h2>9 Accessories Every Man Should Have</h2>
            {/* <p>In this article, we will be giving you that knowledge, we will be sharing 6 rules every man must follow when wearing a suit</p> */}
-            <a href="suit"><Button>Read More</Button></a>
+            <a href="accessories"><Button>Read More</Button></a>
         </section>
     )
 }
@@ -193,8 +193,8 @@ function Yesterday (){
     return(
         <section className="Yesterday">
             <span>Yesterday</span>
-            <h3>Skin Care Tips For Men.</h3>
-            <a href="skin"><Button>Explore</Button></a>
+            <h3>How to wear a suit (6 suit rules every man must follow)</h3>
+            <a href="suit"><Button>Explore</Button></a>
         </section>
     )
 }

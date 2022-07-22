@@ -266,7 +266,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 800px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/suitfit.png');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/suitwatch.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -316,7 +316,7 @@ h3 {
     right: 0;
     top: 700px;
 
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/skin.webp');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/suitfit.png');
     background-position: center;
     background-size: cover;
     border-radius: 30px 0px 0px 0px;
@@ -550,6 +550,10 @@ h3 {
 
 #skinfooter {
     top: 7500px;
+}
+
+#accessoriesfooter {
+    top: 6000px;
 }
 #versatilefooter {
     top: 4000px;
@@ -1164,7 +1168,7 @@ footer {
         left: 0;
         width: 100%;
         height: 800px;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/suitfit.png');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/suitwatch.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -1216,7 +1220,7 @@ footer {
         left: 94px;
         top: 650px;
 
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/skin.webp');
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/suitfit.png');
         background-position: center;
         background-size: cover;
         border-radius: 15px 0px 0px 0px;
@@ -1440,6 +1444,11 @@ footer {
     #skinfooter {
         top: 6300px;
     }
+
+    #accessoriesfooter {
+        top: 6000px;
+    }
+
     #versatilefooter {
         top: 6000px;
     }
